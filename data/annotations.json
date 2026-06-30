@@ -4726,5 +4726,2133 @@
       "state": "unused",
       "gloss": ""
     }
+  },
+  "tinggal": {
+    "me": {
+      "state": "valid",
+      "gloss": "to die; to pass away (meninggal dunia)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be left behind"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "left behind; outdated; lagging behind"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to leave (something/someone); to abandon"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "heritage; relic; legacy; remains"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to be left behind; to miss (a vehicle/event); outdated"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "duduk": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to occupy (a position, place, territory)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to seat (someone); to place in a position"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to suddenly sit down / collapse into sitting (often from shock)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "resident; inhabitant; population"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "occupation (military/territorial)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "seat; mount; base/stand (for an object)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "position; status; standing"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its position; how it is seated/situated"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "masuk": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to enter (a place); to go into"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to insert; to put (something) into; to include"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "included; counted among; classified as"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "income; revenue; input; entry"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "input; suggestion; feedback"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to be possessed (by a spirit); to have something get into oneself"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its entry; the entrance of it; when it enters"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "keluar": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to issue; to release; to expel; to spend (money)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "expenditure; expense; output; discharge"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "output; product; issue (of a publication); graduate (class of)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its exit; the departure/release of it"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pulang": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to send (someone) home; to repatriate; to return (something)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to pass away; to return (to God) (euphemism, berpulang ke rahmatullah)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to be up to; to depend on (e.g. Terpulang kepada Anda)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "repatriation; sending home"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "homecoming; return; arrival back home"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "right after returning; upon arriving home (sepulang sekolah)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "his/her return home; when he/she comes home"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kembali": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to return (something); to give back; to restore"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "return; refund; restoration"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "change (money returned)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "upon returning; right after coming back (often sekembalinya)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "his/her return; the return of it"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "ingat": {
+    "me": {
+      "state": "valid",
+      "gloss": "to remember; to recall; to bear in mind"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to remind (someone)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be remembered"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to suddenly remember; to come to mind"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "reminder (device/note)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "memory; recollection"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as far as (I) remember (seingat saya)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "lupa": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to forget (something/someone); to disregard"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to slip one's mind; to accidentally forget"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "forgetful person; absent-minded person"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to forget accidentally (colloquial); something forgotten"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tahu": {
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to be found out; caught; discovered"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as far as (I) know (setahu saya)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "turns out (that); as it happens (colloquial narrative marker)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kenal": {
+    "me": {
+      "state": "valid",
+      "gloss": "to know (someone); to be acquainted with; to recognize"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to introduce (someone/something)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to recognize; to identify"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be known"
+    },
+    "ber_an": {
+      "state": "valid",
+      "gloss": "to get acquainted (with each other); to meet and introduce oneself"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "famous; well-known"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "identifier; identification mark"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "introduction; recognition; identification (process)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "acquaintance (person)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "suka": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to like; to be fond of"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "one who likes/is a fan of (e.g. penyuka kopi)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "favorite; preference; fondness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as one likes; according to one's preference (sesuka hati)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "his/her preference/liking (colloquial)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "cinta": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to love"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to make love; to be in a romantic relationship"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "beloved; dearest"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "lover (of something); enthusiast"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "love; deep affection; fondness"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "his/her love"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "percaya": {
+    "di": {
+      "state": "valid",
+      "gloss": "to be trusted; believed; reliable"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "trustworthy; reliable; trusted"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "belief; trust; faith; confidence"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "sadar": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to realize; to become aware of"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to make (someone) realize/aware; to bring to consciousness"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to regain consciousness; to suddenly realize"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "awareness-raising; consciousness-raising"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "awareness; consciousness"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "bangun": {
+    "me": {
+      "state": "valid",
+      "gloss": "to build; to construct; to develop"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to wake (someone) up; to rouse"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be built; to be constructed"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to wake up (unintentionally/suddenly); awakened"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "builder; developer; constructor"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "development; construction; building (process)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "building; structure"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "spiritual revival/awakening (e.g. kebangunan rohani)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "congruent (shape, geometry)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "mandi": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to bathe (someone); to give a bath to"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "bathing place; bathhouse; spa"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "his/her bathing; the bath/shower (of someone)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pakai": {
+    "me": {
+      "state": "valid",
+      "gloss": "to use; to wear; to utilize"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to dress (someone) in; to put (clothing) on someone"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be used; to be worn"
+    },
+    "ber_an": {
+      "state": "valid",
+      "gloss": "to be dressed; to wear clothing"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "used (already); in use; utilized"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "user; wearer; consumer"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "usage; use; consumption"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "clothing; clothes; garment"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tunggu": {
+    "me": {
+      "state": "valid",
+      "gloss": "to wait (for)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to watch over; to attend by (someone's side)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be waited for"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "guardian; watcher; one who waits/guards a place"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "waiting; vigil"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "lanjut": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to continue; to carry on; to proceed with"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to continue (intransitive); to go on"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "continuation; sequel; further (study/development)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "continuation; follow-up; sequel"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "putus": {
+    "me": {
+      "state": "valid",
+      "gloss": "to break off; to cut off; to sever (a connection)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to decide; to break off (a relationship); to terminate"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be cut off/severed"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "cut off; disconnected; broken off (unintentionally)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "circuit breaker; decider; one who decides/cuts"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "termination; severance; disconnection"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "verdict; ruling; decision"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "decision"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the breaking off (of something); its termination"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "sambung": {
+    "me": {
+      "state": "valid",
+      "gloss": "to connect; to join; to continue (e.g. a conversation)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to connect (something) to/with; to link up"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be connected; to be joined"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to be connected; continued (e.g. a TV serial: Bersambung...)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "connected (already); linked"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "connector; one who connects; link"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "connection (process); splicing; joining"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "connection; extension; continuation (e.g. of a story)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "gabung": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to merge; to combine; to unite (things)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be merged; to be combined"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to join; to become a member; to merge (intransitive)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "incorporated; included; merged (as part of)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "merger; combination; consolidation"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "combination; coalition; joint (e.g. team)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "campur": {
+    "me": {
+      "state": "valid",
+      "gloss": "to mix; to blend (ingredients/things)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to mix (something) into/with; to combine"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to interfere/meddle in (someone's affairs)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be mixed"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to be mixed; mixed together (intransitive/stative)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "mixed (unintentionally); got mixed up"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "mixer (device or person who mixes)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "mixing; blending (process)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "mixture; blend"
+    },
+    "ber_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tambah": {
+    "me": {
+      "state": "valid",
+      "gloss": "to add; to increase"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to add (something) to; to append"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be added"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to increase (intransitive); to grow (in number)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "additive; booster; something that adds/increases"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "addition; increase; increment"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "addition; extra; supplement"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "he/she added (reported speech, e.g. \\\"...,\\\" tambahnya.)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kurang": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to reduce; to decrease; to lessen"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to decrease; to diminish (intransitive)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "subtrahend; deduction (something that reduces)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "reduction; subtraction; decrease"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "shortage; deficiency; lack (of something)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "what's lacking (e.g. Apa kurangnya?)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "hilang": {
+    "me": {
+      "state": "valid",
+      "gloss": "to disappear; to vanish"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to remove; to eliminate; to get rid of (something)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "remover; eliminator (e.g. a product)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "removal; elimination; forced disappearance"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to lose (something); loss"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its disappearance; the loss of it"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "dapat": {
+    "me": {
+      "state": "valid",
+      "gloss": "to get; to obtain; to receive"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to obtain; to acquire; to get (something, with effort)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to find (someone/something in a state); to discover"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be obtained; to be gotten"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to be found; to exist; there is/are (formal)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "opinion; view"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "income; revenue; earnings"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to be caught (doing something); found out"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as much as possible (sedapat mungkin)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "jatuh": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to drop; to cause to fall; to topple; to overthrow"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to impose/hand down (a sentence or punishment)"
+    },
+    "ber_an": {
+      "state": "valid",
+      "gloss": "to fall one after another; falling in numbers"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "to fall (accidentally); to trip and fall"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "imposition (of a sentence/punishment); dropping"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "downfall; to have something fall on oneself"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its fall; the falling of it; when it falls"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "bangkit": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to arouse; to evoke; to revive; to stir up"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "generator; that which arouses/generates"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "generation (e.g. of power); revival; arousal"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "revival; awakening; rise (e.g. of a movement/nation)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its rise; the rising/revival of it"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "selesai": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to finish; to complete; to resolve"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "resolution; completion; settlement (of a problem)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its completion; when it's finished; upon completion"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "coba": {
+    "me": {
+      "state": "valid",
+      "gloss": "to try; to attempt"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to test; to tempt (someone) (literary/religious register)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be tried; to be tested"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "temptation; trial; test (especially moral/religious)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "trial; test; tribulation (especially of life or faith)"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "siap": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to prepare; to get (something) ready"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to get ready; to prepare oneself"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "preparation (process)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "readiness; preparedness"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "daftar": {
+    "me": {
+      "state": "valid",
+      "gloss": "to register; to enroll; to sign up"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to register/enroll (someone, on someone's behalf)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be registered; to be listed"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "registered; on the list/roll"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "registered; listed; enrolled"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "registrant; applicant"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "registration (process)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its list; the list (of it)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pinjam": {
+    "me": {
+      "state": "valid",
+      "gloss": "to borrow"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to lend (something to someone)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to lend to (someone, repeatedly/habitually)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be borrowed"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "borrower"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "borrowing; lending (process); loan period"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "loan; something borrowed"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "sewa": {
+    "me": {
+      "state": "valid",
+      "gloss": "to rent (from someone); to hire"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to rent out; to lease (to someone)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be rented"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "tenant; renter; lessee"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "rental (business/process); leasing"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "rented; for rent; rental (item)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its rent / rental fee"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "panggil": {
+    "me": {
+      "state": "valid",
+      "gloss": "to call (someone); to summon"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to call (someone/something) for someone else"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be called"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "called (to do something); compelled (by a sense of duty)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "caller; one who calls/summons"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "calling; summons (process, e.g. of a witness)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "call; summons; title/nickname (form of address)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "teriak": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to shout (something); to yell out; to cry out"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to shout at (someone)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to shout; to yell (intransitive)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "shout; scream; yell (the sound/act)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "nyanyi": {
+    "me": {
+      "state": "valid",
+      "gloss": "to sing"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to sing (a specific song); to perform (a song)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to sing (intransitive, common in everyday speech)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "singer"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "song; singing (the act/result)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tari": {
+    "me": {
+      "state": "valid",
+      "gloss": "to dance"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to dance/perform (a specific dance)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "dancer"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "dance (as a noun); a dance routine"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "ukur": {
+    "me": {
+      "state": "valid",
+      "gloss": "to measure"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be measured"
+    },
+    "ber_an": {
+      "state": "valid",
+      "gloss": "to be sized; measuring (a certain size)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "measured; measurable; calculated (deliberately)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "gauge; meter; measuring device"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "measurement (process)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "size; measurement; dimension"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "the same size as; as big/measured as"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "timbang": {
+    "me": {
+      "state": "valid",
+      "gloss": "to weigh (something); to consider; to deliberate"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be weighed"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "weighted (e.g. rata-rata tertimbang = weighted average)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "weigher; one who weighs/considers"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "weighing (process)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "scale (weighing device); balance; weight"
+    },
+    "ke": {
+      "state": "valid",
+      "gloss": "compared to; rather than (colloquial, ketimbang)"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "nya": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "banding": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to compare"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to be in proportion to; in ratio to (berbanding lurus/terbalik)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "the appellee/respondent (legal term, appeals court)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "comparator; benchmark; (legal) appellant"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "comparison (process)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "comparison; match; rival (tiada bandingan = unmatched)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "equivalent; comparable; proportionate to"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its match/equal (often in negation: tiada bandingnya)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    }
   }
 }
