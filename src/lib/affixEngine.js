@@ -25,7 +25,7 @@ export function deriveForm(root, affixId) {
     case 'me':     return applyNasal(root)
     case 'ber':    return root.startsWith('r') ? 'be' + root : 'ber' + root
     case 'di':     return 'di' + root
-    case 'ter':    return 'ter' + root
+    case 'ter':    return root.startsWith('r') ? 'te' + root : 'ter' + root
     case 'ke':     return 'ke' + root
     case 'se':     return 'se' + root
     case 'pe':     return applyPeNasal(root)
