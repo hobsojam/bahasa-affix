@@ -66,7 +66,7 @@ An interactive study tool for learning Bahasa Indonesia affixes. Enter or browse
 | Group | Affixes |
 |-------|---------|
 | Verb forms | `me-`, `di-`, `ber-`, `ter-`, `me-...-kan`, `me-...-i`, `ber-...-an`, `-kan`, `-i` |
-| Noun forms | `pe-`, `-an`, `pe-...-an`, `ke-...-an` |
+| Noun forms | `pe-`, `-an`, `pe-...-an`, `per-...-an`, `ke-...-an` |
 | Modifiers  | `ke-`, `se-`, `-nya`, `-lah` |
 
 `ter-` is placed in **Verb forms** even though its stative reading often translates as an adjective in English (e.g. *tertulis* = "written"). This is linguistically correct — `ter-` is a verbal prefix in Indonesian grammar. The English-adjective feeling is a translation artefact. The affix notes field records this ambiguity. If annotations ever become rich enough to handle per-word overrides, the grouping can be revisited.
@@ -126,6 +126,7 @@ Delegating each page view to a language model would make the app slow, expensive
 | `me-...-kan` | Causative active verb |
 | `me-...-i` | Directional/repeated active verb |
 | `pe-...-an` | Abstract noun / place noun |
+| `per-...-an` | Abstract/collective noun — a distinct circumfix from `pe-...-an`, not an allomorph of it; doesn't undergo nasal assimilation |
 | `ke-...-an` | Abstract noun / state |
 | `ber-...-an` | Reciprocal / plural action |
 

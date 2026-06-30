@@ -1621,6 +1621,10 @@
     "ke_an": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "question"
     }
   },
   "terima": {
@@ -1719,6 +1723,10 @@
     "ke_an": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "help; assistance; aid (e.g. pertolongan pertama = first aid)"
     }
   },
   "tukar": {
@@ -2087,6 +2095,10 @@
     "ke_an": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "journey; trip; trajectory"
     }
   },
   "kerja": {
@@ -4483,6 +4495,10 @@
     "se": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "friendship"
     }
   },
   "sahabat": {
@@ -4533,6 +4549,10 @@
     "se": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "friendship; close bond"
     }
   },
   "sekolah": {
@@ -4579,6 +4599,10 @@
     "se": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "schooling system (formal/policy register)"
     }
   },
   "uang": {
@@ -4725,6 +4749,10 @@
     "se": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "person(s) of mixed local/foreign descent, esp. historically Chinese-Indonesian (peranakan); locally-born descendants"
     }
   },
   "tinggal": {
@@ -5071,6 +5099,10 @@
     "nya": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "warning; commemoration; anniversary (e.g. peringatan kemerdekaan = independence day commemoration)"
     }
   },
   "lupa": {
@@ -5325,6 +5357,10 @@
     "se": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "romance; love affair; love life (e.g. kisah percintaan = love story)"
     }
   },
   "percaya": {
@@ -7089,6 +7125,10 @@
     "ber": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "expansion; widening (e.g. perluasan wilayah = territorial expansion)"
     }
   },
   "dalam": {

@@ -101,6 +101,14 @@
       "notes": ""
     },
     {
+      "id": "per_an",
+      "label": "per-...-an",
+      "type": "circumfix",
+      "group": "noun",
+      "function": "Abstract or collective noun (separate circumfix from pe-...-an)",
+      "notes": "Does not undergo nasal assimilation like pe-...-an does -- it's a distinct circumfix, not an allomorph of it. Which roots take per-...-an vs pe-...-an is lexically determined, not predictable by a phonological rule, so it must be annotated per word. per- + root starting with 'r' becomes pe- (e.g. peresmian, not perresmian), mirroring ber-/ter-."
+    },
+    {
       "id": "ke_an",
       "label": "ke-...-an",
       "type": "circumfix",

@@ -39,6 +39,7 @@ export function deriveForm(root, affixId) {
     case 'pe_an':  return applyPeNasal(root) + 'an'
     case 'ke_an':  return 'ke' + root + 'an'
     case 'ber_an': return (root.startsWith('r') ? 'be' : 'ber') + root + 'an'
+    case 'per_an': return (root.startsWith('r') ? 'pe' : 'per') + root + 'an'
     default:       return root
   }
 }
