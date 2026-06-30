@@ -7778,5 +7778,435 @@
       "state": "unused",
       "gloss": ""
     }
+  },
+  "bangga": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to make proud; to be a source of pride; pride-worthy"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "pride (the feeling/object of pride)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how proud (someone) is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "rindu": {
+    "me": {
+      "state": "valid",
+      "gloss": "to long for; to yearn (intransitive, literary)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to miss (someone/something); to long for"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "longing; yearning (the feeling)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how much (someone) misses/longs for (something)"
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "benci": {
+    "me": {
+      "state": "valid",
+      "gloss": "to hate"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "hated; despised (stative/passive)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "hater; one who hates"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "hatred"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how much (someone) hates (something), e.g. Bencinya aku!"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "iri": {
+    "nya": {
+      "state": "valid",
+      "gloss": "how envious (someone) is (colloquial)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "cemburu": {
+    "ke_an": {
+      "state": "valid",
+      "gloss": "jealousy (e.g. kecemburuan sosial = social jealousy)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how jealous (someone) gets (colloquial)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kesal": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "annoying; irritating"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "annoyance; irritation"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how annoyed (someone) is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "bosan": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "boring"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "boredom"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how bored (someone) is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "khawatir": {
+    "ke_an": {
+      "state": "valid",
+      "gloss": "worry; concern; anxiety"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kagum": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to admire"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "amazing; admirable; astonishing"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "amazed; in awe (often reduplicated: terkagum-kagum)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "admirer"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "admiration"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "heran": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "surprising; astonishing"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "astonishment; surprise (the feeling/state)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "surprisingly; oddly enough (discourse marker, e.g. Herannya, dia tidak marah)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "curiga": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to suspect (someone)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "suspicious (causing suspicion)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "suspicion"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kecewa": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "disappointing"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "disappointment"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "gembira": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to gladden; heartening/pleasing (news)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "joy; happiness; gladness"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how glad/happy (someone) is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "peduli": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to care about; to pay attention to; to heed"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "concern; care; awareness (e.g. kepedulian sosial)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "sayang": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to love; to cherish (someone)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to regret; to lament (a situation)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "favorite; beloved; darling"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "unfortunately; what a pity; sadly (very common discourse marker)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "puas": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "satisfying"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "satisfaction"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "to one's heart's content (sepuas hati)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how satisfied (someone) is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "yakin": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "convincing; to convince (someone)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to believe in; to be convinced of (something)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "belief; conviction; confidence; faith"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "ragu": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "doubtful; questionable; to doubt/cast doubt on (something)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "doubt; hesitation"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kejut": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "surprising; shocking; startling"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "shocked; startled; surprised"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "surprise (noun), e.g. kejutan = surprise/pesta kejutan = surprise party"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
   }
 }

@@ -2342,6 +2342,157 @@ annotations = {
         "di":     u(),
         "ber":    u(),
     },
+    # ── emotions & psychological states ───────────────────────────────────────
+    "bangga": {
+        "me_kan": v("to make proud; to be a source of pride; pride-worthy"),
+        "ke_an":  v("pride (the feeling/object of pride)"),
+        "nya":    v("how proud (someone) is"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "rindu": {
+        "me":     v("to long for; to yearn (intransitive, literary)"),
+        "me_kan": v("to miss (someone/something); to long for"),
+        "ke_an":  v("longing; yearning (the feeling)"),
+        "nya":    v("how much (someone) misses/longs for (something)"),
+        # ter+rindu relies on the ter- + r-initial root elision (terindu, not
+        # terrindu) -- see the fix to affixEngine.js for ter-.
+        "ter":    u(),
+        "ber":    u(),
+    },
+    "benci": {
+        "me":     v("to hate"),
+        "ter":    v("hated; despised (stative/passive)"),
+        "pe":     v("hater; one who hates"),
+        "ke_an":  v("hatred"),
+        "nya":    v("how much (someone) hates (something), e.g. Bencinya aku!"),
+        "me_kan": u(),
+        "ber":    u(),
+    },
+    "iri": {
+        # "iri" is almost always used as a bare stative adjective (Saya iri.)
+        # rather than taking verbal/nominal affixes -- only the -nya form is
+        # confidently attested in everyday use.
+        "nya":    v("how envious (someone) is (colloquial)"),
+        "me":     u(),
+        "ke_an":  u(),
+        "ber":    u(),
+    },
+    "cemburu": {
+        "ke_an":  v("jealousy (e.g. kecemburuan sosial = social jealousy)"),
+        "nya":    v("how jealous (someone) gets (colloquial)"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "kesal": {
+        "me_kan": v("annoying; irritating"),
+        "ke_an":  v("annoyance; irritation"),
+        "nya":    v("how annoyed (someone) is"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "bosan": {
+        "me_kan": v("boring"),
+        "ke_an":  v("boredom"),
+        "nya":    v("how bored (someone) is"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "khawatir": {
+        "ke_an":  v("worry; concern; anxiety"),
+        # the real causative is "mengkhawatirkan", which keeps the "kh"
+        # cluster intact -- this engine's nasal rule only recognizes a
+        # single-letter "k" and would drop just that, rendering the wrong
+        # "menghawatirkan". Those slots are left unannotated rather than
+        # shown with an incorrect spelling.
+        "me":     u(),
+        "me_kan": u(),
+        "ber":    u(),
+    },
+    "kagum": {
+        "me_i":   v("to admire"),
+        "me_kan": v("amazing; admirable; astonishing"),
+        "ter":    v("amazed; in awe (often reduplicated: terkagum-kagum)"),
+        "pe":     v("admirer"),
+        "ke_an":  v("admiration"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "heran": {
+        "me_kan": v("surprising; astonishing"),
+        "ke_an":  v("astonishment; surprise (the feeling/state)"),
+        "nya":    v("surprisingly; oddly enough (discourse marker, e.g. Herannya, dia tidak marah)"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "curiga": {
+        "me_i":   v("to suspect (someone)"),
+        "me_kan": v("suspicious (causing suspicion)"),
+        "ke_an":  v("suspicion"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "kecewa": {
+        "me_kan": v("disappointing"),
+        "ke_an":  v("disappointment"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "gembira": {
+        "me_kan": v("to gladden; heartening/pleasing (news)"),
+        "ke_an":  v("joy; happiness; gladness"),
+        "nya":    v("how glad/happy (someone) is"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "peduli": {
+        "me_kan": v("to care about; to pay attention to; to heed"),
+        "ke_an":  v("concern; care; awareness (e.g. kepedulian sosial)"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "sayang": {
+        "me_i":   v("to love; to cherish (someone)"),
+        "me_kan": v("to regret; to lament (a situation)"),
+        "ke_an":  v("favorite; beloved; darling"),
+        "nya":    v("unfortunately; what a pity; sadly (very common discourse marker)"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "puas": {
+        "me_kan": v("satisfying"),
+        "ke_an":  v("satisfaction"),
+        "se":     v("to one's heart's content (sepuas hati)"),
+        "nya":    v("how satisfied (someone) is"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "yakin": {
+        "me_kan": v("convincing; to convince (someone)"),
+        "me_i":   v("to believe in; to be convinced of (something)"),
+        "ke_an":  v("belief; conviction; confidence; faith"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "ragu": {
+        "me_kan": v("doubtful; questionable; to doubt/cast doubt on (something)"),
+        "ke_an":  v("doubt; hesitation"),
+        "me":     u(),
+        # ter+ragu relies on the ter- + r-initial root elision (teragu, not
+        # terragu) -- see the fix to affixEngine.js for ter-. Not included
+        # here regardless since "teragu" alone isn't a commonly used word
+        # (Indonesian uses the reduplicated "ragu-ragu" instead).
+        "ter":    u(),
+        "ber":    u(),
+    },
+    "kejut": {
+        "me_kan": v("surprising; shocking; startling"),
+        "ter":    v("shocked; startled; surprised"),
+        "an":     v("surprise (noun), e.g. kejutan = surprise/pesta kejutan = surprise party"),
+        "me":     u(),
+        "ke_an":  u(),
+        "ber":    u(),
+    },
 }
 
 # ── merge with existing annotations (existing entries win) ───────────────────
