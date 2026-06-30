@@ -6854,5 +6854,929 @@
       "state": "unused",
       "gloss": ""
     }
+  },
+  "cantik": {
+    "ter": {
+      "state": "valid",
+      "gloss": "most beautiful; prettiest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "beauty"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as pretty as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how pretty it/she is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "jelek": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to disparage; to badmouth; to make (something) look bad"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "ugliest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "ugliness; flaw; bad quality/trait"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as bad/ugly as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how bad/ugly it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "gemuk": {
+    "me": {
+      "state": "valid",
+      "gloss": "to become fat; to gain weight (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to fatten (up); to make (someone/something) fat"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "fattest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "obesity; excessive fatness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as fat as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how fat it/he/she is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kurus": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to make (someone/something) thin; to slim down"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "excessive thinness; too skinny"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as thin as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how thin it/he/she is"
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tampan": {
+    "ter": {
+      "state": "valid",
+      "gloss": "most handsome (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "handsomeness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as handsome as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how handsome he is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "bodoh": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to fool; to deceive; to make a fool of (someone)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "stupidest (superlative)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "dumbing down; act of fooling/deceiving the masses"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "stupidity; foolishness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as stupid as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how stupid it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pandai": {
+    "ter": {
+      "state": "valid",
+      "gloss": "smartest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "skill; cleverness; intelligence; expertise"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as clever/smart as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how clever it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "luas": {
+    "me": {
+      "state": "valid",
+      "gloss": "to expand; to spread; to widen (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to widen; to expand (something); to broaden"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "widest; most spacious (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "extensiveness; breadth (e.g. keluasan wawasan)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as wide as; the extent of (seluas-luasnya = as widely as possible)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its size/extent; how wide it is"
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "dalam": {
+    "me": {
+      "state": "valid",
+      "gloss": "to go deep; deep; in-depth (often used adjectivally)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to study (something) in depth; to deepen one's understanding"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "deepest (superlative)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "deepening; in-depth study"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "innerwear; undergarment (colloquial, baju dalaman)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "depth"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as deep as (sedalam-dalamnya = as deeply as possible)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its depth; how deep it is"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "dangkal": {
+    "me": {
+      "state": "valid",
+      "gloss": "to become shallow (e.g. a river silting up)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to make shallow; to cause to silt up"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "shallowness (literal or figurative, e.g. shallow thinking)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as shallow as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how shallow it is"
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tebal": {
+    "me": {
+      "state": "valid",
+      "gloss": "to thicken; to become thick (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to thicken (something); to bold/embolden text"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "thickest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "thickness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as thick as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its thickness; how thick it is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tipis": {
+    "me": {
+      "state": "valid",
+      "gloss": "to thin out; to become thin; to dwindle (also figuratively)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to thin (something) out; to make thin"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "thinnest (superlative)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as thin as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how thin it is"
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "berat": {
+    "me": {
+      "state": "valid",
+      "gloss": "to become heavy; to get heavier"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to burden; to incriminate; to weigh down; to make heavier"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "heaviest (superlative)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "weight; counterweight; ballast"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "aggravation (of a sentence); weighting"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "objection; to object; to mind (something)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as heavy as; weighing"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its weight; how heavy it is"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "lembut": {
+    "me": {
+      "state": "valid",
+      "gloss": "to soften; to become soft/gentle (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to soften (something)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "softest; gentlest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "softness; gentleness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as soft as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how soft it is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "licin": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to smooth (something); to lubricate; to grease the wheels (figurative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "slipperiness; smoothness; slickness/cunning (figurative)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as slippery as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how slippery it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "basah": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to wet; to moisten (something)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to get wet (accidentally); wetness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as wet as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how wet it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "segar": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to refresh; to freshen up; refreshing"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "refresher; freshener (product)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "refreshment; renewal; revitalization"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "freshness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as fresh as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how fresh it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "busuk": {
+    "me": {
+      "state": "valid",
+      "gloss": "to rot; to decay; to decompose"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to cause to rot; to spoil (something); to tarnish (a reputation)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "decomposer (e.g. bakteri pembusuk = decomposing bacteria)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "decomposition; decay; rotting (process)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "rottenness; hidden wrongdoing/scandal (figurative)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as rotten as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how rotten it is"
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "matang": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to ripen (something); to mature/finalize (a plan)"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "maturation; ripening; finalization (process)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "maturity; ripeness"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how ripe/mature it is"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "mentah": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to nullify; to refute; to render void (an argument or agreement)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how raw/unprocessed it is (e.g. data mentah = raw data)"
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "se": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "asin": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to salt (something); to cure with salt"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "too salty; saltiness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as salty as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how salty it is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "manis": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to sweeten (something)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "sweetest (superlative)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "sweetener"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "too sweet; sweetness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as sweet as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how sweet it is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pahit": {
+    "ke_an": {
+      "state": "valid",
+      "gloss": "bitterness (literal or of life experience)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as bitter as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how bitter it is (also figurative: pahitnya kenyataan)"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "asam": {
+    "me": {
+      "state": "valid",
+      "gloss": "to turn sour (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to acidify; to make sour"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "acidity"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as sour as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how sour it is"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pedas": {
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to feel the burn (from spicy food); excessive spiciness"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as spicy as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how spicy it is"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "tawar": {
+    "me": {
+      "state": "valid",
+      "gloss": "to bargain; to haggle; to make an offer/bid"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to offer (something)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to offer (someone) something"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be bargained over; to receive an offer/bid"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "antidote; offerer; bidder"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "offer; bid; supply (as in supply and demand)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "offer (noun, e.g. tawaran pekerjaan = job offer)"
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "wangi": {
+    "me": {
+      "state": "valid",
+      "gloss": "to smell fragrant; to be fragrant (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to make fragrant; to perfume (something)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "fragrance; perfume; scenting agent"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as fragrant as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "how fragrant it is"
+    },
+    "ke_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "bau": {
+    "me": {
+      "state": "valid",
+      "gloss": "to smell (something); to sniff; to stink/smell (bad)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to smell/sniff (something, more deliberately)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "sense of smell (organ, e.g. indera pembau)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its smell; how it smells"
+    },
+    "ter": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "jauh": {
+    "me": {
+      "state": "valid",
+      "gloss": "to move away; to distance oneself (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to keep (something/someone) away; to distance/separate"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to avoid; to stay away from (someone/something)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "farthest (superlative)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "too far; distance; from a distance (dari kejauhan)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as far as (sejauh ini = so far/thus far)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its distance; how far it is"
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "dekat": {
+    "me": {
+      "state": "valid",
+      "gloss": "to approach; to come closer (intransitive)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to bring (something/someone) closer"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to approach (someone/something); nearly (approximate)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "nearest; closest"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "closeness; proximity"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as close as"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "its closeness; how close it is"
+    },
+    "di": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
   }
 }
