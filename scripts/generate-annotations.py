@@ -2501,6 +2501,116 @@ annotations = {
         "ke_an":  u(),
         "ber":    u(),
     },
+    # ── nature & geography ────────────────────────────────────────────────────
+    "hujan": {
+        "me_i":   v("to shower (someone) with (something), figurative (menghujani pertanyaan = to bombard with questions)"),
+        "pe":     v("rainy (musim penghujan = rainy season)"),
+        "ke_an":  v("to get caught in the rain; rained on"),
+        "nya":    v("the rain; how much it's raining"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "angin": {
+        "me_kan": v("to air out (something); to let air through; to ventilate"),
+        "ber":    v("windy"),
+        "nya":    v("the wind (referring to it)"),
+        "me":     u(),
+    },
+    "awan": {
+        "me":     v("to rise into the sky/clouds; to soar (literary)"),
+        "ber":    v("cloudy"),
+        "nya":    v("the clouds (referring to them)"),
+    },
+    "gunung": {
+        "me":     v("to pile up (like a mountain); to accumulate greatly (figurative, e.g. utang menggunung = debt piled up)"),
+        "se":     v("as big as a mountain (figurative, e.g. masalahnya segunung)"),
+        "nya":    v("the mountain (referring to it)"),
+        # the real noun "pegunungan" (mountain range) drops the nasal "ng"
+        # entirely -- this engine's pe-...-an rule would render the wrong
+        # "penggunungan", so that slot is left unannotated.
+        "pe_an":  u(),
+        "ber":    u(),
+    },
+    "laut": {
+        "me":     v("to go out to sea (especially to fish)"),
+        "pe":     v("sailor; seafarer"),
+        "an":     v("ocean; vast sea (emphatic/larger form, e.g. lautan manusia = a sea of people)"),
+        "ke_an":  v("maritime affairs (e.g. Kementerian Kelautan)"),
+        "nya":    v("the sea (referring to it)"),
+        "ber":    u(),
+    },
+    "hutan": {
+        "me_kan": v("to reforest; to turn (land) into forest"),
+        "pe_an":  v("afforestation"),
+        "ke_an":  v("forestry (e.g. Kementerian Kehutanan)"),
+        "nya":    v("the forest (referring to it)"),
+        "me":     u(),
+        "ber":    u(),
+    },
+    "pulau": {
+        "me_kan": v("to ostracize; to boycott; to shun (someone) -- figurative, like isolating someone on an island"),
+        "ke_an":  v("archipelago (e.g. Kepulauan Riau)"),
+        "se":     v("on the same island"),
+        "nya":    v("the island (referring to it)"),
+        "ber":    u(),
+    },
+    "desa": {
+        "se":     v("from/in the same village"),
+        "nya":    v("the village (referring to it)"),
+        # the colloquial-standard noun is actually "pedesaan" (no nasal "n",
+        # no per- "r" either), which is neither this engine's regular
+        # pe-...-an output ("pendesaan") nor per-...-an ("perdesaan") -- it's
+        # its own irregularity. "perdesaan" is real too, attested in more
+        # formal/administrative registers, so per_an is included with that
+        # caveat rather than left out entirely.
+        "per_an": v("rural areas (formal/administrative register; \"pedesaan\" without the r is more common colloquially)"),
+        "pe_an":  u(),
+        "ber":    u(),
+    },
+    "kota": {
+        "se":     v("within the same city"),
+        "nya":    v("the city (referring to it)"),
+        "per_an": v("urban areas; the city collectively"),
+        "pe_an":  u(),
+        "ber":    u(),
+    },
+    "sungai": {
+        "nya":    v("the river (referring to it)"),
+        "ber":    u(),
+    },
+    "pantai": {
+        "nya":    v("the beach (referring to it)"),
+        "ber":    u(),
+    },
+    "langit": {
+        "me":     v("to skyrocket; to soar (prices, fame, etc., figurative)"),
+        "se":     v("sky-high (e.g. harganya selangit = the price is sky-high)"),
+        "nya":    v("the sky (referring to it)"),
+    },
+    "bumi": {
+        "me":     v("to become grounded/down-to-earth; to take root (figurative, of an idea spreading)"),
+        "me_kan": v("to ground (something); to make (an idea) accessible/relatable"),
+        "nya":    v("the earth/land (referring to it)"),
+    },
+    "banjir": {
+        "me":     v("to flood; to pour in (literally or figuratively)"),
+        "me_i":   v("to flood/inundate (something) with, often figurative (barang impor membanjiri pasar)"),
+        "ke_an":  v("to be flooded; flooded with, also figurative (kebanjiran tugas = flooded with assignments)"),
+        "nya":    v("the flood (referring to it)"),
+        "ber":    u(),
+    },
+    "gempa": {
+        "nya":    v("the earthquake (referring to it)"),
+        "ber":    u(),
+    },
+    "kabut": {
+        "ber":    v("foggy; covered in fog"),
+        "nya":    v("the fog (referring to it)"),
+    },
+    "badai": {
+        "nya":    v("the storm (referring to it)"),
+        "ber":    u(),
+    },
 }
 
 # ── merge with existing annotations (existing entries win) ───────────────────

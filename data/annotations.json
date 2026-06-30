@@ -8248,5 +8248,303 @@
       "state": "unused",
       "gloss": ""
     }
+  },
+  "hujan": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to shower (someone) with (something), figurative (menghujani pertanyaan = to bombard with questions)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "rainy (musim penghujan = rainy season)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to get caught in the rain; rained on"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the rain; how much it's raining"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "angin": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to air out (something); to let air through; to ventilate"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "windy"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the wind (referring to it)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "awan": {
+    "me": {
+      "state": "valid",
+      "gloss": "to rise into the sky/clouds; to soar (literary)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "cloudy"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the clouds (referring to them)"
+    }
+  },
+  "gunung": {
+    "me": {
+      "state": "valid",
+      "gloss": "to pile up (like a mountain); to accumulate greatly (figurative, e.g. utang menggunung = debt piled up)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "as big as a mountain (figurative, e.g. masalahnya segunung)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the mountain (referring to it)"
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "laut": {
+    "me": {
+      "state": "valid",
+      "gloss": "to go out to sea (especially to fish)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "sailor; seafarer"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "ocean; vast sea (emphatic/larger form, e.g. lautan manusia = a sea of people)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "maritime affairs (e.g. Kementerian Kelautan)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the sea (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "hutan": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to reforest; to turn (land) into forest"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "afforestation"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "forestry (e.g. Kementerian Kehutanan)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the forest (referring to it)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pulau": {
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to ostracize; to boycott; to shun (someone) -- figurative, like isolating someone on an island"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "archipelago (e.g. Kepulauan Riau)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "on the same island"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the island (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "desa": {
+    "se": {
+      "state": "valid",
+      "gloss": "from/in the same village"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the village (referring to it)"
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "rural areas (formal/administrative register; \"pedesaan\" without the r is more common colloquially)"
+    }
+  },
+  "kota": {
+    "se": {
+      "state": "valid",
+      "gloss": "within the same city"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the city (referring to it)"
+    },
+    "pe_an": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "urban areas; the city collectively"
+    }
+  },
+  "sungai": {
+    "nya": {
+      "state": "valid",
+      "gloss": "the river (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "pantai": {
+    "nya": {
+      "state": "valid",
+      "gloss": "the beach (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "langit": {
+    "me": {
+      "state": "valid",
+      "gloss": "to skyrocket; to soar (prices, fame, etc., figurative)"
+    },
+    "se": {
+      "state": "valid",
+      "gloss": "sky-high (e.g. harganya selangit = the price is sky-high)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the sky (referring to it)"
+    }
+  },
+  "bumi": {
+    "me": {
+      "state": "valid",
+      "gloss": "to become grounded/down-to-earth; to take root (figurative, of an idea spreading)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to ground (something); to make (an idea) accessible/relatable"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the earth/land (referring to it)"
+    }
+  },
+  "banjir": {
+    "me": {
+      "state": "valid",
+      "gloss": "to flood; to pour in (literally or figuratively)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to flood/inundate (something) with, often figurative (barang impor membanjiri pasar)"
+    },
+    "ke_an": {
+      "state": "valid",
+      "gloss": "to be flooded; flooded with, also figurative (kebanjiran tugas = flooded with assignments)"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the flood (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "gempa": {
+    "nya": {
+      "state": "valid",
+      "gloss": "the earthquake (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "kabut": {
+    "ber": {
+      "state": "valid",
+      "gloss": "foggy; covered in fog"
+    },
+    "nya": {
+      "state": "valid",
+      "gloss": "the fog (referring to it)"
+    }
+  },
+  "badai": {
+    "nya": {
+      "state": "valid",
+      "gloss": "the storm (referring to it)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": ""
+    }
   }
 }
