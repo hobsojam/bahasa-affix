@@ -11,7 +11,7 @@
 </script>
 
 <header>
-  <h1>Bahasa Affix Explorer</h1>
+  <h1>Bahasa Indonesia Affix Explorer</h1>
 </header>
 
 <main>
