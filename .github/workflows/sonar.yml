@@ -1,0 +1,22 @@
+name: SonarCloud
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  sonar:
+    # Dependabot PRs are routine version bumps with no meaningful diff for
+    # static analysis, and Dependabot's read-only token can't see secrets
+    # like SONAR_TOKEN anyway — skip the scan rather than fail the check.
+    if: github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: SonarSource/sonarqube-scan-action@v5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
