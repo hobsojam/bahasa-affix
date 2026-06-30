@@ -1,0 +1,160 @@
+{
+  "nasalAssimilation": {
+    "description": "Rules for me- and pe- prefix consonant changes",
+    "rules": [
+      { "startsWith": ["b", "f", "v"],       "prefix": "mem",  "dropInitial": false },
+      { "startsWith": ["p"],                  "prefix": "mem",  "dropInitial": true  },
+      { "startsWith": ["c", "j", "sy", "z"], "prefix": "men",  "dropInitial": false },
+      { "startsWith": ["d"],                  "prefix": "men",  "dropInitial": false },
+      { "startsWith": ["t"],                  "prefix": "men",  "dropInitial": true  },
+      { "startsWith": ["g", "h"],             "prefix": "meng", "dropInitial": false },
+      { "startsWith": ["k"],                  "prefix": "meng", "dropInitial": true  },
+      { "startsWith": ["a","e","i","o","u"],  "prefix": "meng", "dropInitial": false },
+      { "startsWith": ["s"],                  "prefix": "meny", "dropInitial": true  },
+      { "startsWith": ["l","m","n","r","w","y","ng","ny"], "prefix": "me", "dropInitial": false }
+    ]
+  },
+  "groups": [
+    { "id": "verb",     "label": "Verb forms"      },
+    { "id": "noun",     "label": "Noun forms"      },
+    { "id": "modifier", "label": "Modifiers"       }
+  ],
+  "affixes": [
+    {
+      "id": "me",
+      "label": "me-",
+      "type": "prefix",
+      "group": "verb",
+      "function": "Active verb (actor focus)",
+      "notes": "Undergoes nasal assimilation. Most common verbal prefix."
+    },
+    {
+      "id": "di",
+      "label": "di-",
+      "type": "prefix",
+      "group": "verb",
+      "function": "Passive verb (patient focus)",
+      "notes": "Pairs with me- as the passive counterpart."
+    },
+    {
+      "id": "ber",
+      "label": "ber-",
+      "type": "prefix",
+      "group": "verb",
+      "function": "Intransitive verb; to have or use something",
+      "notes": "ber- + root starting with 'r' becomes be-"
+    },
+    {
+      "id": "ter",
+      "label": "ter-",
+      "type": "prefix",
+      "group": "verb",
+      "function": "Accidental or stative passive",
+      "notes": "Implies unintentional action or a resulting state. The stative form often reads as an adjective in English (e.g. tertulis = 'written'), but ter- is grammatically a verbal prefix in Indonesian."
+    },
+    {
+      "id": "me_kan",
+      "label": "me-...-kan",
+      "type": "circumfix",
+      "group": "verb",
+      "function": "Causative active verb",
+      "notes": ""
+    },
+    {
+      "id": "me_i",
+      "label": "me-...-i",
+      "type": "circumfix",
+      "group": "verb",
+      "function": "Directional or repeated active verb",
+      "notes": ""
+    },
+    {
+      "id": "ber_an",
+      "label": "ber-...-an",
+      "type": "circumfix",
+      "group": "verb",
+      "function": "Reciprocal action or plural action",
+      "notes": ""
+    },
+    {
+      "id": "pe",
+      "label": "pe-",
+      "type": "prefix",
+      "group": "noun",
+      "function": "Agent or instrument noun",
+      "notes": "Follows the same nasal assimilation as me-"
+    },
+    {
+      "id": "an",
+      "label": "-an",
+      "type": "suffix",
+      "group": "noun",
+      "function": "Result noun, instrument noun, or collective",
+      "notes": ""
+    },
+    {
+      "id": "pe_an",
+      "label": "pe-...-an",
+      "type": "circumfix",
+      "group": "noun",
+      "function": "Abstract noun or place noun",
+      "notes": ""
+    },
+    {
+      "id": "ke_an",
+      "label": "ke-...-an",
+      "type": "circumfix",
+      "group": "noun",
+      "function": "Abstract noun or state noun",
+      "notes": ""
+    },
+    {
+      "id": "ke",
+      "label": "ke-",
+      "type": "prefix",
+      "group": "modifier",
+      "function": "Ordinal numbers; some nominals",
+      "notes": ""
+    },
+    {
+      "id": "se",
+      "label": "se-",
+      "type": "prefix",
+      "group": "modifier",
+      "function": "One; same; as...as",
+      "notes": ""
+    },
+    {
+      "id": "nya",
+      "label": "-nya",
+      "type": "suffix",
+      "group": "modifier",
+      "function": "Definiteness marker or nominaliser",
+      "notes": ""
+    },
+    {
+      "id": "lah",
+      "label": "-lah",
+      "type": "suffix",
+      "group": "modifier",
+      "function": "Softens imperatives; adds emphasis",
+      "notes": ""
+    },
+    {
+      "id": "kan",
+      "label": "-kan",
+      "type": "suffix",
+      "group": "verb",
+      "function": "Causative or benefactive (bare, without me-)",
+      "notes": "Often seen in imperatives: tuliskan! (write it down!)"
+    },
+    {
+      "id": "i",
+      "label": "-i",
+      "type": "suffix",
+      "group": "verb",
+      "function": "Locative or repeated action on object (bare, without me-)",
+      "notes": "Often seen in imperatives: tulisi! (write on it!)"
+    }
+  ]
+}

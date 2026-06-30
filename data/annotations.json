@@ -1,0 +1,24 @@
+{
+  "tulis": {
+    "me":     { "state": "valid",   "gloss": "to write (active)" },
+    "di":     { "state": "valid",   "gloss": "to be written (passive)" },
+    "ter":    { "state": "valid",   "gloss": "written (stative), as in tertulis dalam hukum" },
+    "pe":     { "state": "valid",   "gloss": "writer, author" },
+    "an":     { "state": "valid",   "gloss": "writing, text, script" },
+    "me_kan": { "state": "valid",   "gloss": "to write something down (causative)" },
+    "me_i":   { "state": "valid",   "gloss": "to write on or over a surface" },
+    "pe_an":  { "state": "valid",   "gloss": "the act of writing; process of writing" },
+    "ber":    { "state": "unused",  "gloss": "" },
+    "ke_an":  { "state": "unused",  "gloss": "" }
+  },
+  "baca": {
+    "me":     { "state": "valid",   "gloss": "to read (active)" },
+    "di":     { "state": "valid",   "gloss": "to be read (passive)" },
+    "pe":     { "state": "valid",   "gloss": "reader" },
+    "an":     { "state": "valid",   "gloss": "reading material; reading (act)" },
+    "me_kan": { "state": "valid",   "gloss": "to read something aloud (for someone)" },
+    "me_i":   { "state": "unused",  "gloss": "" },
+    "pe_an":  { "state": "valid",   "gloss": "reading (process or place of)" },
+    "ber":    { "state": "unused",  "gloss": "" }
+  }
+}
