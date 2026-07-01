@@ -10,10 +10,16 @@ import { dirname, join } from 'path'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const wordsData = JSON.parse(readFileSync(join(root, 'data/words.json'), 'utf8'))
 const affixData = JSON.parse(readFileSync(join(root, 'data/affixes.json'), 'utf8'))
+const annotations = JSON.parse(readFileSync(join(root, 'data/annotations.json'), 'utf8'))
 
 const words = wordsData.words
 const { rules } = affixData.nasalAssimilation
 const affixes = affixData.affixes
+
+// Every word's own root, e.g. "bilai" -- used to catch generated forms that
+// collide with an unrelated dictionary headword (see issue: "bila" + "-i"
+// mechanically produces "bilai", which is actually its own unrelated root).
+const rootWords = new Set(words.map(w => w.root))
 
 // --- nasal assimilation (mirrors affixEngine.js) ---
 
@@ -72,10 +78,13 @@ function add(form, root, label) {
 for (const word of words) {
   add(word.root, word.root, null)
   for (const affix of affixes) {
+    if (annotations[word.root]?.[affix.id]?.state === 'unused') continue
+
     const form = deriveForm(word.root, affix.id)
-    if (form !== word.root) {
-      add(form, word.root, affix.label)
-    }
+    if (form === word.root) continue
+    if (rootWords.has(form)) continue // collides with an unrelated dictionary headword
+
+    add(form, word.root, affix.label)
   }
 }
 

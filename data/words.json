@@ -6,7 +6,7 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
     "source_version": "2025.11.23",
     "generated": "2026-06-30",
-    "count": 9393
+    "count": 9394
   },
   "words": [
     {
@@ -6983,6 +6983,11 @@
       "root": "bilah",
       "pos": "word",
       "gloss": "blade"
+    },
+    {
+      "root": "bilai",
+      "pos": "noun",
+      "gloss": "welt; long scar on the skin from a whip (archaic, KBBI); also a bare verb: to smooth a surface by rubbing (cloth, wood)"
     },
     {
       "root": "bilangan",

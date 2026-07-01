@@ -8558,5 +8558,21 @@
       "state": "unused",
       "gloss": ""
     }
+  },
+  "bila": {
+    "i": {
+      "state": "unused",
+      "gloss": ""
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": ""
+    }
+  },
+  "bilai": {
+    "me": {
+      "state": "valid",
+      "gloss": "to smooth a surface by rubbing (cloth, wood); to remove wrinkles or roughen"
+    }
   }
 }
