@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bahasa-affix&metric=alert_status&token=eb13c2d74d885d49eaacf7d6405931e8ce6763d1)](https://sonarcloud.io/summary/new_code?id=bahasa-affix)
+
 # Bahasa Affix Explorer
 
 An interactive study tool for learning Bahasa Indonesia affixes. Enter or browse a root word and see its meaning alongside all the common derived forms — prefixed, suffixed, and circumfixed — with notes on what each form means and how it is used.
