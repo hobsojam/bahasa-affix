@@ -211,6 +211,7 @@ annotations = {
         "pe":     v("counter; calculator (person or device)"),
         "an":     v("calculation; count; reckoning"),
         "pe_an":  v("counting; calculation; tallying"),
+        "per_an": v("calculation; reckoning (e.g. perhitungan matematis)"),
         "me_kan": v("to calculate for someone; to count as"),
         "me_i":   v("to count up; to count (items) one by one"),
         "ber":    u(),
@@ -554,9 +555,13 @@ annotations = {
     "arti": {
         "ber":    v("to mean; to signify; to be meaningful"),
         "me_kan": v("to interpret; to define; to mean (causative)"),
-        "pe_an":  v("understanding; definition; comprehension"),
         "me":     u(),
         "ke_an":  u(),
+        # the real word is "pengertian" (understanding), an irregular vowel
+        # shift (arti -> erti) that neither this engine's regular pe-...-an
+        # ("pengartian") nor per-...-an ("perartian") can produce -- see
+        # issue #16.
+        "pe_an":  u(),
     },
     "bicara": {
         "ber":    v("to speak; to talk; to converse"),
@@ -589,6 +594,7 @@ annotations = {
         "pe":     v("mover; motor; motivator; driver"),
         "an":     v("movement; motion; gesture; campaign"),
         "pe_an":  v("mobilization; movement; drive"),
+        "per_an": v("movement (e.g. pergerakan nasional = national movement)"),
         "ter":    v("moved; motivated; stirred (emotionally)"),
         "me":     u(),
         "ke_an":  u(),
@@ -632,9 +638,13 @@ annotations = {
         "ber":    v("to work; to be employed"),
         "me_kan": v("to do; to work on; to carry out"),
         "me_i":   v("to prank; to trick; to fool (informal)"),
-        "pe":     v("worker; employee; laborer"),
-        "pe_an":  v("job; work; occupation; employment"),
+        "pe_an":  v("execution/completion of a task; workmanship (e.g. pengerjaan proyek)"),
         "ke_an":  u(),
+        # the real words for "worker"/"job" are "pekerja"/"pekerjaan",
+        # irregular forms this engine can't produce (it would render
+        # "pengerja"/wrongly gloss "pengerjaan" as job/occupation) -- see
+        # issue #16.
+        "pe":     u(),
     },
     "kembang": {
         "ber":    v("to develop; to grow; to flourish; to bloom"),
@@ -767,9 +777,12 @@ annotations = {
         "me":     v("to start; to begin; to commence"),
         "di":     v("to be started; to be begun"),
         "me_kan": v("to start (something); to initiate"),
-        "pe_an":  v("beginning; commencement; start"),
         "ber":    u(),
         "ke_an":  u(),
+        # the real word is "permulaan" (beginning), which needs a vowel
+        # elision (mulai + an -> mulaan, not mulaian) this engine's literal
+        # per-...-an concatenation doesn't perform -- see issue #16.
+        "pe_an":  u(),
     },
 
     # ── numbers (ke- ordinals) ────────────────────────────────────────────────
@@ -1359,9 +1372,11 @@ annotations = {
         "me":     v("to head toward; to aim at; to be directed at"),
         "me_kan": v("to direct toward; to address to; to aim"),
         "an":     v("goal; purpose; intention; destination"),
-        "pe_an":  v("direction; heading; orientation"),
         "ber":    u(),
         "ke_an":  u(),
+        # "penujuan" isn't a real/standard word; "tujuan" (-an, above)
+        # already covers this meaning.
+        "pe_an":  u(),
     },
     "waktu": {
         "se":     v("at the time of; when; while (sewaktu)"),
@@ -2053,7 +2068,7 @@ annotations = {
         "ber":    v("to be in proportion to; in ratio to (berbanding lurus/terbalik)"),
         "ter":    v("the appellee/respondent (legal term, appeals court)"),
         "pe":     v("comparator; benchmark; (legal) appellant"),
-        "pe_an":  v("comparison (process)"),
+        "per_an": v("comparison; ratio; proportion"),
         "an":     v("comparison; match; rival (tiada bandingan = unmatched)"),
         "se":     v("equivalent; comparable; proportionate to"),
         "nya":    v("its match/equal (often in negation: tiada bandingnya)"),
@@ -2061,6 +2076,9 @@ annotations = {
         "me_i":   u(),
         "di":     u(),
         "ke_an":  u(),
+        # "pembandingan" isn't the standard word for "comparison" (that's
+        # "perbandingan", now covered by per_an above).
+        "pe_an":  u(),
     },
     # ── adjectives: physical / taste / texture ───────────────────────────────
     "cantik": {

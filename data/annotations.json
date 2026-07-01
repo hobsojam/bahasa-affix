@@ -687,6 +687,10 @@
     "ke_an": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "calculation; reckoning (e.g. perhitungan matematis)"
     }
   },
   "isi": {
@@ -1857,8 +1861,8 @@
       "gloss": "to interpret; to define; to mean (causative)"
     },
     "pe_an": {
-      "state": "valid",
-      "gloss": "understanding; definition; comprehension"
+      "state": "unused",
+      "gloss": ""
     },
     "me": {
       "state": "unused",
@@ -1983,6 +1987,10 @@
     "ke_an": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "movement (e.g. pergerakan nasional = national movement)"
     }
   },
   "harap": {
@@ -2115,12 +2123,12 @@
       "gloss": "to prank; to trick; to fool (informal)"
     },
     "pe": {
-      "state": "valid",
-      "gloss": "worker; employee; laborer"
+      "state": "unused",
+      "gloss": ""
     },
     "pe_an": {
       "state": "valid",
-      "gloss": "job; work; occupation; employment"
+      "gloss": "execution/completion of a task; workmanship (e.g. pengerjaan proyek)"
     },
     "ke_an": {
       "state": "unused",
@@ -2563,8 +2571,8 @@
       "gloss": "to start (something); to initiate"
     },
     "pe_an": {
-      "state": "valid",
-      "gloss": "beginning; commencement; start"
+      "state": "unused",
+      "gloss": ""
     },
     "ber": {
       "state": "unused",
@@ -4391,8 +4399,8 @@
       "gloss": "goal; purpose; intention; destination"
     },
     "pe_an": {
-      "state": "valid",
-      "gloss": "direction; heading; orientation"
+      "state": "unused",
+      "gloss": ""
     },
     "ber": {
       "state": "unused",
@@ -6859,8 +6867,8 @@
       "gloss": "comparator; benchmark; (legal) appellant"
     },
     "pe_an": {
-      "state": "valid",
-      "gloss": "comparison (process)"
+      "state": "unused",
+      "gloss": ""
     },
     "an": {
       "state": "valid",
@@ -6889,6 +6897,10 @@
     "ke_an": {
       "state": "unused",
       "gloss": ""
+    },
+    "per_an": {
+      "state": "valid",
+      "gloss": "comparison; ratio; proportion"
     }
   },
   "cantik": {
