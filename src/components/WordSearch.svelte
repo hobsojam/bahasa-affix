@@ -16,6 +16,7 @@
 
   let query = $state('')
   let results = $state([])
+  let activeIndex = $state(-1)
   let justSelected = false
 
   function binarySearchLeft(q) {
@@ -30,6 +31,7 @@
 
   function search(q) {
     if (justSelected) { justSelected = false; return }
+    activeIndex = -1
     if (!q || q.length < 2 || !index) { results = []; return }
     const lower = q.toLowerCase()
 
@@ -60,11 +62,37 @@
 
   $effect(() => { search(query) })
 
+  const resultsAnnouncement = $derived(
+    results.length === 0 ? '' : `${results.length} result${results.length === 1 ? '' : 's'} available`
+  )
+
   function select(root) {
     justSelected = true
     query = root
     results = []
+    activeIndex = -1
     onSelect(root)
+  }
+
+  function handleKeydown(e) {
+    if (e.key === 'ArrowDown') {
+      if (results.length === 0) return
+      e.preventDefault()
+      activeIndex = activeIndex < 0 ? 0 : Math.min(activeIndex + 1, results.length - 1)
+    } else if (e.key === 'ArrowUp') {
+      if (results.length === 0) return
+      e.preventDefault()
+      activeIndex = Math.max(activeIndex - 1, -1)
+    } else if (e.key === 'Enter') {
+      if (activeIndex < 0 || !results[activeIndex]) return
+      e.preventDefault()
+      select(results[activeIndex].root)
+    } else if (e.key === 'Escape') {
+      if (results.length === 0) return
+      e.preventDefault()
+      results = []
+      activeIndex = -1
+    }
   }
 </script>
 
@@ -73,20 +101,36 @@
   <input
     id="word-search-input"
     type="text"
+    role="combobox"
+    aria-expanded={results.length > 0}
+    aria-controls="search-listbox"
+    aria-autocomplete="list"
+    aria-activedescendant={activeIndex >= 0 && results[activeIndex] ? `result-${results[activeIndex].root}` : undefined}
     placeholder="Search root or derived form (e.g. menulis)…"
     bind:value={query}
+    onkeydown={handleKeydown}
   />
+  <div class="sr-only" role="status">{resultsAnnouncement}</div>
   {#if results.length > 0}
-    <ul class="results">
-      {#each results as r (r.root)}
-        <li>
-          <button onclick={() => select(r.root)}>
-            <span class="root">{r.root}</span>
-            {#if r.via}
-              <span class="via">via {r.via}</span>
-            {/if}
-            <span class="gloss">{r.gloss}</span>
-          </button>
+    <ul class="results" role="listbox" id="search-listbox">
+      {#each results as r, i (r.root)}
+        <!-- These options are never focused -- per the WAI-ARIA combobox
+             pattern, the input owns all keyboard interaction via
+             aria-activedescendant, so a per-option keydown handler would
+             be dead code. -->
+        <!-- svelte-ignore a11y_click_events_have_key_events -->
+        <li
+          id="result-{r.root}"
+          role="option"
+          aria-selected={i === activeIndex}
+          class:active={i === activeIndex}
+          onclick={() => select(r.root)}
+        >
+          <span class="root">{r.root}</span>
+          {#if r.via}
+            <span class="via">via {r.via}</span>
+          {/if}
+          <span class="gloss">{r.gloss}</span>
         </li>
       {/each}
     </ul>
@@ -130,22 +174,18 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
 
-  li { border-bottom: 1px solid #f0f0f0; }
-  li:last-child { border-bottom: none; }
-
-  button {
-    width: 100%;
-    text-align: left;
-    background: none;
-    border: none;
+  li[role="option"] {
+    border-bottom: 1px solid #f0f0f0;
     padding: 0.5rem 0.8rem;
     cursor: pointer;
     display: flex;
     gap: 0.5rem;
     align-items: baseline;
   }
+  li[role="option"]:last-child { border-bottom: none; }
 
-  button:hover { background: #f5f5f5; }
+  li[role="option"]:hover,
+  li[role="option"].active { background: #f5f5f5; }
 
   .root  { font-weight: 600; }
   .via   { font-size: 0.8rem; color: #666; }

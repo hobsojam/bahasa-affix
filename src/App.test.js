@@ -20,15 +20,30 @@ describe('App', () => {
 
   it('selecting a search result shows the word card and its derived forms', async () => {
     render(App)
-    const input = screen.getByPlaceholderText(/search root or derived form/i)
+    const input = screen.getByLabelText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'menulis' } })
 
-    const button = await screen.findByRole('button', { name: /tulis/ }, { timeout: 3000 })
-    await fireEvent.click(button)
+    const option = await screen.findByRole('option', { name: /tulis/ }, { timeout: 3000 })
+    await fireEvent.click(option)
 
     expect(screen.getByText('write, written')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /derived forms/i })).toBeInTheDocument()
     expect(screen.getByText('menulis')).toBeInTheDocument()
+  })
+
+  it('announces the selected word in a status live region', async () => {
+    render(App)
+    const statusRegions = screen.getAllByRole('status')
+    for (const region of statusRegions) expect(region).toHaveTextContent('')
+
+    const input = screen.getByLabelText(/search root or derived form/i)
+    await fireEvent.input(input, { target: { value: 'menulis' } })
+    const option = await screen.findByRole('option', { name: /tulis/ }, { timeout: 3000 })
+    await fireEvent.click(option)
+
+    expect(
+      screen.getByText('Showing derived forms for tulis: write, written')
+    ).toBeInTheDocument()
   })
 
   it('opens and closes the Affix Guide dialog', async () => {
