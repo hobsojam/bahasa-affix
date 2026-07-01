@@ -20,7 +20,7 @@
 </script>
 
 <header>
-  <h1>pemBILAS</h1>
+  <h1>Bahasa Indonesia Language Affix System</h1>
   <button class="guide-btn" bind:this={guideButtonEl} onclick={() => guideOpen = true}>
     Affix Guide
   </button>
