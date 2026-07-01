@@ -1,6 +1,7 @@
 <script>
   import WordSearch from './components/WordSearch.svelte'
   import AffixTable from './components/AffixTable.svelte'
+  import AffixGuide from './components/AffixGuide.svelte'
   import wordsData from '../data/words.json'
   import annotations from '../data/annotations.json'
 
@@ -8,11 +9,26 @@
 
   let selectedRoot = $state(null)
   const selectedWord = $derived(words.find(w => w.root === selectedRoot))
+
+  let guideOpen = $state(false)
+  let guideButtonEl = $state()
+
+  function closeGuide() {
+    guideOpen = false
+    guideButtonEl?.focus()
+  }
 </script>
 
 <header>
   <h1>Bahasa Indonesia Affix Explorer</h1>
+  <button class="guide-btn" bind:this={guideButtonEl} onclick={() => guideOpen = true}>
+    Affix Guide
+  </button>
 </header>
+
+{#if guideOpen}
+  <AffixGuide {annotations} onClose={closeGuide} />
+{/if}
 
 <main>
   <div class="search-wrapper">
@@ -48,9 +64,27 @@
     background: #1a5276;
     color: white;
     padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
   }
 
   h1 { margin: 0; font-size: 1.25rem; font-weight: 600; }
+
+  .guide-btn {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 0.4rem 0.85rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .guide-btn:hover { background: rgba(255, 255, 255, 0.22); }
+  .guide-btn:focus-visible { outline: 2px solid white; outline-offset: 2px; }
 
   main {
     max-width: 760px;
