@@ -21,7 +21,7 @@
 
 <header>
   <div class="brand">
-    <img src="/logo.svg" alt="pemBILAS" class="logo" />
+    <img src="{import.meta.env.BASE_URL}logo.svg" alt="pemBILAS" class="logo" />
     <h1>Bahasa Indonesia Language Affix System</h1>
   </div>
   <button class="guide-btn" bind:this={guideButtonEl} onclick={() => guideOpen = true}>
