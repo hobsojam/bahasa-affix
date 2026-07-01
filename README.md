@@ -153,7 +153,7 @@ The `me-` prefix undergoes consonant changes depending on the initial sound of t
 
 - **[Svelte](https://svelte.dev/) + [Vite](https://vitejs.dev/)** — lightweight reactive UI, no heavy framework
 - **Plain JSON files** — data is version-controlled and hand-editable
-- **Static site** — no backend, deployed to [GitHub Pages](https://hobsojam.github.io/bahasa-affix/) on every push to `main`
+- **Static site** — no backend, deployed to [GitHub Pages](https://hobsojam.github.io/pembilas/) on every push to `main`
 
 ## CI/CD
 
@@ -162,7 +162,7 @@ The `me-` prefix undergoes consonant changes depending on the initial sound of t
 - **`.github/workflows/deploy.yml`** — builds and publishes to GitHub Pages on push to `main`
 - **`.github/dependabot.yml`** — weekly dependency updates (npm + GitHub Actions) with a 7-day cooldown on version bumps
 
-See the [issue tracker](https://github.com/hobsojam/bahasa-affix/issues) for known gaps in this setup (no test suite or linter yet, no automated `annotations.json` structure validation).
+See the [issue tracker](https://github.com/hobsojam/pembilas/issues) for known gaps in this setup (no test suite or linter yet, no automated `annotations.json` structure validation).
 
 ## Development
 
@@ -176,7 +176,7 @@ Open `http://localhost:5173`.
 ## Project Structure
 
 ```
-bahasa-affix/
+pembilas/
 ├── .github/
 │   ├── workflows/          # CI, SonarCloud, GitHub Pages deploy
 │   └── dependabot.yml
@@ -215,7 +215,7 @@ bahasa-affix/
 - [x] Add `per-...-an` as a distinct noun circumfix (separate from `pe-...-an`)
 - [x] Set up CI, Dependabot, and SonarCloud
 
-See the [issue tracker](https://github.com/hobsojam/bahasa-affix/issues) for what's next — more annotation batches, a test suite, accessibility fixes, and a handful of known irregular-word edge cases the affix engine can't model yet.
+See the [issue tracker](https://github.com/hobsojam/pembilas/issues) for what's next — more annotation batches, a test suite, accessibility fixes, and a handful of known irregular-word edge cases the affix engine can't model yet.
 
 ## License
 
