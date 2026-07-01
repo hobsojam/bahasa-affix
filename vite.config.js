@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/bahasa-affix/' : '/',
+  base: command === 'build' ? '/pembilas/' : '/',
   plugins: [svelte()],
   // Vitest resolves packages without the "browser" condition by default,
   // which makes Svelte pick its server-side build (no mount/effects) even
