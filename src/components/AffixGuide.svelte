@@ -160,7 +160,7 @@
   }
 
   .close-btn:hover { color: #222; }
-  .close-btn:focus-visible { outline: 2px solid #1a5276; outline-offset: 2px; }
+  .close-btn:focus-visible { outline: 2px solid #CE1126; outline-offset: 2px; }
 
   .dialog-body {
     padding: 1.25rem;

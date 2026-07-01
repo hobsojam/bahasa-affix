@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Indonesian-flag-style halves -->
+  <rect x="0" y="0" width="300" height="100" fill="#CE1126"/>
+  <rect x="0" y="100" width="300" height="100" fill="#FFFFFF"/>
+
+  <!-- Wordmark, split across the two halves -->
+  <text x="150" y="68" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-weight="600"
+        font-size="46" fill="#FFFFFF">pem-</text>
+
+  <text x="150" y="176" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-weight="800"
+        font-size="72" letter-spacing="1" fill="#CE1126">BILAS</text>
+</svg>

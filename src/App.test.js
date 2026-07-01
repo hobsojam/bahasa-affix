@@ -14,6 +14,7 @@ describe('App', () => {
     expect(
       screen.getByRole('heading', { level: 1, name: 'Bahasa Indonesia Language Affix System' })
     ).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: 'pemBILAS' })).toBeInTheDocument()
     expect(screen.getByText(/search for a root word above/i)).toBeInTheDocument()
   })
 

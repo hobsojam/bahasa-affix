@@ -20,7 +20,10 @@
 </script>
 
 <header>
-  <h1>Bahasa Indonesia Language Affix System</h1>
+  <div class="brand">
+    <img src="/logo.svg" alt="pemBILAS" class="logo" />
+    <h1>Bahasa Indonesia Language Affix System</h1>
+  </div>
   <button class="guide-btn" bind:this={guideButtonEl} onclick={() => guideOpen = true}>
     Affix Guide
   </button>
@@ -61,20 +64,43 @@
   }
 
   header {
-    background: #1a5276;
+    background: #222222;
     color: white;
     padding: 1rem 2rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.75rem 1rem;
   }
 
-  h1 { margin: 0; font-size: 1.25rem; font-weight: 600; }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: white;
+    padding: 3px;
+    display: block;
+  }
+
+  h1 { margin: 0; font-size: 1.25rem; font-weight: 600; min-width: 0; }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 1.05rem; }
+  }
 
   .guide-btn {
     background: rgba(255, 255, 255, 0.12);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid #CE1126;
     color: white;
     padding: 0.4rem 0.85rem;
     border-radius: 4px;
