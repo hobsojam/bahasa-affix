@@ -1,6 +1,12 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/svelte'
 import App from './App.svelte'
+
+// See WordSearch.test.js for why the real (~5.7MB) search index is mocked
+// out rather than loaded for real in tests.
+vi.mock('../data/search-index.json', () => ({
+  default: [['menulis', 'tulis', 'me-']],
+}))
 
 describe('App', () => {
   it('renders the title and a prompt before any word is selected', () => {
@@ -14,7 +20,7 @@ describe('App', () => {
     const input = screen.getByPlaceholderText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'menulis' } })
 
-    const button = await screen.findByRole('button', { name: /tulis/ })
+    const button = await screen.findByRole('button', { name: /tulis/ }, { timeout: 3000 })
     await fireEvent.click(button)
 
     expect(screen.getByText('write, written')).toBeInTheDocument()

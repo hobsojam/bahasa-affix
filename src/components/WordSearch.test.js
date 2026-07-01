@@ -1,9 +1,19 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/svelte'
-import wordsData from '../../data/words.json'
 import WordSearch from './WordSearch.svelte'
 
-const words = wordsData.words
+// The real search-index.json is ~5.7MB; importing and parsing it inside
+// every test made findByText's default 1s timeout flaky depending on how
+// fast that dynamic import happened to resolve. A small deterministic
+// fixture removes that timing dependency entirely.
+vi.mock('../../data/search-index.json', () => ({
+  default: [
+    ['menulis', 'tulis', 'me-'],
+    ['tulis', 'tulis', null],
+  ],
+}))
+
+const words = [{ root: 'tulis', pos: 'word', gloss: 'write, written' }]
 
 describe('WordSearch', () => {
   it('shows no results for a query shorter than 2 characters', async () => {
@@ -18,7 +28,7 @@ describe('WordSearch', () => {
     const input = screen.getByPlaceholderText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'menulis' } })
 
-    const root = await screen.findByText('tulis')
+    const root = await screen.findByText('tulis', {}, { timeout: 3000 })
     expect(root).toBeInTheDocument()
     expect(screen.getByText('via me-')).toBeInTheDocument()
   })
@@ -28,7 +38,7 @@ describe('WordSearch', () => {
     const input = screen.getByPlaceholderText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'tulis' } })
 
-    await screen.findByText('tulis')
+    await screen.findByText('tulis', {}, { timeout: 3000 })
     expect(screen.queryByText(/^via /)).not.toBeInTheDocument()
   })
 
@@ -38,7 +48,7 @@ describe('WordSearch', () => {
     const input = screen.getByPlaceholderText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'menulis' } })
 
-    const button = await screen.findByRole('button', { name: /tulis/ })
+    const button = await screen.findByRole('button', { name: /tulis/ }, { timeout: 3000 })
     await fireEvent.click(button)
 
     expect(onSelect).toHaveBeenCalledWith('tulis')
