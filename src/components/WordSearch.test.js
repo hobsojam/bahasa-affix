@@ -18,14 +18,14 @@ const words = [{ root: 'tulis', pos: 'word', gloss: 'write, written' }]
 describe('WordSearch', () => {
   it('shows no results for a query shorter than 2 characters', async () => {
     render(WordSearch, { words, onSelect: vi.fn() })
-    const input = screen.getByPlaceholderText(/search root or derived form/i)
+    const input = screen.getByLabelText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 't' } })
     expect(screen.queryByRole('list')).not.toBeInTheDocument()
   })
 
   it('finds a derived form and links it back to its root via the affix label', async () => {
     render(WordSearch, { words, onSelect: vi.fn() })
-    const input = screen.getByPlaceholderText(/search root or derived form/i)
+    const input = screen.getByLabelText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'menulis' } })
 
     const root = await screen.findByText('tulis', {}, { timeout: 3000 })
@@ -35,7 +35,7 @@ describe('WordSearch', () => {
 
   it('finding a root word directly does not show a "via" affix label', async () => {
     render(WordSearch, { words, onSelect: vi.fn() })
-    const input = screen.getByPlaceholderText(/search root or derived form/i)
+    const input = screen.getByLabelText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'tulis' } })
 
     await screen.findByText('tulis', {}, { timeout: 3000 })
@@ -45,7 +45,7 @@ describe('WordSearch', () => {
   it('calls onSelect with the root and clears the result list when a result is clicked', async () => {
     const onSelect = vi.fn()
     render(WordSearch, { words, onSelect })
-    const input = screen.getByPlaceholderText(/search root or derived form/i)
+    const input = screen.getByLabelText(/search root or derived form/i)
     await fireEvent.input(input, { target: { value: 'menulis' } })
 
     const button = await screen.findByRole('button', { name: /tulis/ }, { timeout: 3000 })

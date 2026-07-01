@@ -34,8 +34,15 @@
 {:else}
   {#each groupedRows as group (group.id)}
     <div class="group">
-      <h3>{group.label}</h3>
-      <table>
+      <h3 id="group-heading-{group.id}">{group.label}</h3>
+      <table aria-labelledby="group-heading-{group.id}">
+        <thead>
+          <tr>
+            <th scope="col">Form</th>
+            <th scope="col">Affix</th>
+            <th scope="col">Meaning</th>
+          </tr>
+        </thead>
         <tbody>
           {#each group.rows as row (row.affix.id)}
             <tr class={row.state}>
@@ -64,7 +71,7 @@
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    color: #aaa;
+    color: #666;
     margin: 0 0 0.4rem;
   }
 
@@ -74,15 +81,25 @@
     font-size: 0.95rem;
   }
 
+  th {
+    padding: 0 0.75rem 0.35rem;
+    text-align: left;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: #666;
+  }
+
   td { padding: 0.55rem 0.75rem; border-bottom: 1px solid #f0f0f0; }
   tr:last-child td { border-bottom: none; }
 
   .form        { font-weight: 600; font-size: 1rem; }
-  .affix-label { color: #aaa; font-size: 0.85rem; white-space: nowrap; }
+  .affix-label { color: #666; font-size: 0.85rem; white-space: nowrap; }
   .gloss       { color: #333; }
 
-  tr.unused td { color: #bbb; }
+  tr.unused td { color: #6b6b6b; }
   .unused-note { font-style: italic; }
 
-  .empty { color: #999; font-style: italic; }
+  .empty { color: #666; font-style: italic; }
 </style>

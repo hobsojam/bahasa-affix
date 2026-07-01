@@ -129,7 +129,7 @@
   }
 
   .root-word  { font-size: 2rem; font-weight: 700; line-height: 1.1; }
-  .pos        { font-size: 0.8rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 0.25rem 0; }
+  .pos        { font-size: 0.8rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em; margin: 0.25rem 0; }
   .base-gloss { font-size: 1.1rem; color: #444; }
 
   .affix-section {
@@ -144,8 +144,8 @@
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #888;
+    color: #666;
   }
 
-  .prompt { color: #aaa; text-align: center; margin-top: 4rem; }
+  .prompt { color: #666; text-align: center; margin-top: 4rem; }
 </style>

@@ -21,6 +21,22 @@ describe('AffixTable', () => {
     expect(screen.getByText('to write (active)')).toBeInTheDocument()
   })
 
+  it('gives each table a labelled column header row associated with its group heading', () => {
+    render(AffixTable, { root: 'tulis', annotations })
+
+    const table = screen.getByRole('table', { name: 'Verb forms' })
+    expect(table).toBeInTheDocument()
+    expect(
+      screen.getByRole('columnheader', { name: 'Form' })
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('columnheader', { name: 'Affix' })
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('columnheader', { name: 'Meaning' })
+    ).toBeInTheDocument()
+  })
+
   it('renders an unused affix slot dimmed with a note instead of a gloss', () => {
     render(AffixTable, { root: 'tulis', annotations })
     expect(screen.getByText('bertulis')).toBeInTheDocument()

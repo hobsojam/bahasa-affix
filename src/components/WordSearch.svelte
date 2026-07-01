@@ -69,7 +69,9 @@
 </script>
 
 <div class="search">
+  <label for="word-search-input" class="sr-only">Search root or derived form</label>
   <input
+    id="word-search-input"
     type="text"
     placeholder="Search root or derived form (e.g. menulis)…"
     bind:value={query}
@@ -93,6 +95,18 @@
 
 <style>
   .search { position: relative; }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 
   input {
     width: 100%;
@@ -134,6 +148,6 @@
   button:hover { background: #f5f5f5; }
 
   .root  { font-weight: 600; }
-  .via   { font-size: 0.8rem; color: #888; }
+  .via   { font-size: 0.8rem; color: #666; }
   .gloss { font-size: 0.9rem; color: #555; margin-left: auto; }
 </style>
