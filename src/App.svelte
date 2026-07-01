@@ -38,6 +38,10 @@
     <WordSearch {words} onSelect={root => selectedRoot = root} />
   </div>
 
+  <div class="sr-only" role="status">
+    {selectedWord ? `Showing derived forms for ${selectedWord.root}: ${selectedWord.gloss}` : ''}
+  </div>
+
   {#if selectedWord}
     <section class="word-card">
       <div class="root-word">{selectedWord.root}</div>
@@ -119,6 +123,18 @@
   }
 
   .search-wrapper { margin-bottom: 2rem; }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 
   .word-card {
     background: white;
