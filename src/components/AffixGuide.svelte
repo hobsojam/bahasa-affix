@@ -77,11 +77,11 @@
     </div>
 
     <div class="dialog-body">
-      {#each groupedRows as group}
+      {#each groupedRows as group (group.id)}
         <div class="group">
           <h3>{group.label}</h3>
           <ul>
-            {#each group.rows as { affix, example }}
+            {#each group.rows as { affix, example } (affix.id)}
               <li>
                 <div class="row-head">
                   <span class="affix-label">{affix.label}</span>

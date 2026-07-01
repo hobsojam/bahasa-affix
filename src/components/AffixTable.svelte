@@ -32,12 +32,12 @@
 {#if groupedRows.length === 0}
   <p class="empty">No affix forms annotated yet for <em>{root}</em>.</p>
 {:else}
-  {#each groupedRows as group}
+  {#each groupedRows as group (group.id)}
     <div class="group">
       <h3>{group.label}</h3>
       <table>
         <tbody>
-          {#each group.rows as row}
+          {#each group.rows as row (row.affix.id)}
             <tr class={row.state}>
               <td class="form">{row.form}</td>
               <td class="affix-label">{row.affix.label}</td>

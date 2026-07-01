@@ -34,6 +34,8 @@
     const lower = q.toLowerCase()
 
     const found = []
+    // Local dedup set, discarded at the end of this call -- not reactive state, so a plain Set is correct here.
+    // eslint-disable-next-line svelte/prefer-svelte-reactivity
     const seenRoots = new Set()
 
     let i = binarySearchLeft(lower)
@@ -74,7 +76,7 @@
   />
   {#if results.length > 0}
     <ul class="results">
-      {#each results as r}
+      {#each results as r (r.root)}
         <li>
           <button onclick={() => select(r.root)}>
             <span class="root">{r.root}</span>
