@@ -11,7 +11,9 @@ vi.mock('../data/search-index.json', () => ({
 describe('App', () => {
   it('renders the title and a prompt before any word is selected', () => {
     render(App)
-    expect(screen.getByRole('heading', { level: 1, name: 'pemBILAS' })).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { level: 1, name: 'Bahasa Indonesia Language Affix System' })
+    ).toBeInTheDocument()
     expect(screen.getByText(/search for a root word above/i)).toBeInTheDocument()
   })
 
