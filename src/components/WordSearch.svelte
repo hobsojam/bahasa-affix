@@ -1,11 +1,14 @@
 <script>
-  import searchIndex from '../../data/search-index.json'
-
   let { words, onSelect } = $props()
 
-  // Pre-built sorted array of [form, root, affixLabel|null].
-  // Binary search finds prefix matches in O(log n) instead of O(n).
-  const index = searchIndex
+  // The search index is ~5.7MB of JSON -- by far the biggest single
+  // contributor to the JS bundle -- and isn't needed until the user starts
+  // typing, so it's loaded as a separate lazy chunk instead of bundled into
+  // the initial payload. Kicked off immediately on mount (not on first
+  // keystroke) so it's very likely already loaded by the time the user
+  // types 2+ characters.
+  let index = $state(null)
+  import('../../data/search-index.json').then(m => { index = m.default })
 
   // Set for O(1) root-word lookup (used to label results as direct vs via-affix)
   const rootSet = new Set(words.map(w => w.root))
@@ -27,7 +30,7 @@
 
   function search(q) {
     if (justSelected) { justSelected = false; return }
-    if (!q || q.length < 2) { results = []; return }
+    if (!q || q.length < 2 || !index) { results = []; return }
     const lower = q.toLowerCase()
 
     const found = []
