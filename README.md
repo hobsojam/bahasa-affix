@@ -1,8 +1,10 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bahasa-affix&metric=alert_status&token=eb13c2d74d885d49eaacf7d6405931e8ce6763d1)](https://sonarcloud.io/summary/new_code?id=bahasa-affix)
 
-# Bahasa Affix Explorer
+# pemBILAS
 
-An interactive study tool for learning Bahasa Indonesia affixes. Enter or browse a root word and see its meaning alongside all the common derived forms — prefixed, suffixed, and circumfixed — with notes on what each form means and how it is used.
+**pemBILAS** — **B**ahasa **I**ndonesia **L**anguage **A**ffix **S**ystem — is an interactive study tool for learning Bahasa Indonesia affixes. Enter or browse a root word and see its meaning alongside all the common derived forms — prefixed, suffixed, and circumfixed — with notes on what each form means and how it is used.
+
+The name is itself a worked example: `bilas` (root, "to rinse") + `pe-` (agent/instrument noun prefix) undergoes the same nasal assimilation the app teaches — *b* triggers `pem-`, no initial drop — giving **pembilas**, "rinsing agent."
 
 ## Goals
 
@@ -17,7 +19,7 @@ An interactive study tool for learning Bahasa Indonesia affixes. Enter or browse
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  Bahasa Affix Explorer                                          │
+│  pemBILAS                                                       │
 ├─────────────────────────────────────────────────────────────────┤
 │  [ menulis                                                    ] │
 │    ↳ tulis  (via me-)  — to write                               │
