@@ -8333,8 +8333,9 @@
       "gloss": "the mountain (referring to it)"
     },
     "pe_an": {
-      "state": "unused",
-      "gloss": ""
+      "state": "valid",
+      "gloss": "mountain range",
+      "form": "pegunungan"
     },
     "ber": {
       "state": "unused",

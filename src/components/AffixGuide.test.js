@@ -22,6 +22,19 @@ describe('AffixGuide', () => {
     expect(screen.getByText('me-')).toBeInTheDocument()
   })
 
+  it('uses an annotation\'s form override instead of the algorithmic derivation (#16)', () => {
+    render(AffixGuide, {
+      annotations: {
+        tulis: {
+          pe_an: { state: 'valid', gloss: 'irregular test case', form: 'OVERRIDDEN-FORM' },
+        },
+      },
+      onClose: vi.fn(),
+    })
+    expect(screen.getByText('OVERRIDDEN-FORM')).toBeInTheDocument()
+    expect(screen.queryByText('penulisan')).not.toBeInTheDocument()
+  })
+
   it('calls onClose when the close button is clicked', async () => {
     const onClose = vi.fn()
     render(AffixGuide, { annotations, onClose })

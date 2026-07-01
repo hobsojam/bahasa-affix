@@ -16,14 +16,16 @@
 
   function exampleFor(affix) {
     if (!affix.example) return null
-    const gloss = annotations[affix.example]?.[affix.id]?.gloss
+    const ann = annotations[affix.example]?.[affix.id]
     const rootMeaning = rootGloss.get(affix.example)
-    if (!gloss || !rootMeaning) return null
+    if (!ann?.gloss || !rootMeaning) return null
     return {
-      form: deriveForm(affix.example, affix.id),
+      // See AffixTable.svelte / #16 -- an annotation's `form` overrides the
+      // algorithmic one for lexically irregular derivations.
+      form: ann.form ?? deriveForm(affix.example, affix.id),
       root: affix.example,
       rootMeaning,
-      gloss,
+      gloss: ann.gloss,
     }
   }
 

@@ -78,9 +78,12 @@ function add(form, root, label) {
 for (const word of words) {
   add(word.root, word.root, null)
   for (const affix of affixes) {
-    if (annotations[word.root]?.[affix.id]?.state === 'unused') continue
+    const ann = annotations[word.root]?.[affix.id]
+    if (ann?.state === 'unused') continue
 
-    const form = deriveForm(word.root, affix.id)
+    // An annotation's `form` overrides the algorithmic one for lexically
+    // irregular derivations (see affixEngine.js / #16).
+    const form = ann?.form ?? deriveForm(word.root, affix.id)
     if (form === word.root) continue
     if (rootWords.has(form)) continue // collides with an unrelated dictionary headword
 

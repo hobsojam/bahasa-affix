@@ -13,7 +13,12 @@
       .filter(affix => affix.group === groupId)
       .map(affix => {
         const ann = wordAnnotations[affix.id]
-        const form = deriveForm(root, affix.id)
+        // Some derived forms are lexically irregular and can't be produced
+        // by the phonological rules deriveForm() encodes (e.g. gunung's
+        // pe_an form is "pegunungan", not the nasalized "penggunungan" the
+        // regular rule would give). An annotation can supply the literal
+        // surface form to override the algorithmic one -- see #16.
+        const form = ann?.form ?? deriveForm(root, affix.id)
         return {
           affix,
           form,

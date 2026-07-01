@@ -7,6 +7,11 @@
  *   - every entry's `state` is one of "valid" | "unused"
  *   - every "valid" entry has a non-empty `gloss`
  *   - every affix id referenced actually exists in data/affixes.json
+ *
+ * Plus, per issue #16:
+ *   - an entry's optional `form` (irregular-derivation override, see
+ *     affixEngine.js) is a non-empty string when present, and only appears
+ *     on "valid" entries (an unused slot has no form to override)
  */
 import { readFileSync } from 'fs'
 import { fileURLToPath } from 'url'
@@ -42,6 +47,15 @@ for (const [word, entries] of Object.entries(annotations)) {
 
     if (entry.state === 'valid' && !entry.gloss?.trim()) {
       errors.push(`${where}: state is "valid" but gloss is empty`)
+    }
+
+    if ('form' in entry) {
+      if (typeof entry.form !== 'string' || !entry.form.trim()) {
+        errors.push(`${where}: form is present but empty (must be a non-empty string)`)
+      }
+      if (entry.state !== 'valid') {
+        errors.push(`${where}: form is set but state is not "valid" (an unused slot has nothing to override)`)
+      }
     }
   }
 }

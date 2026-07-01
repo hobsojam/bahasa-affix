@@ -49,4 +49,19 @@ describe('AffixTable', () => {
     // fixture's annotations, so it must not be rendered as a row.
     expect(screen.queryByText('ditulis')).not.toBeInTheDocument()
   })
+
+  it('uses an annotation\'s form override instead of the algorithmic derivation (#16)', () => {
+    // Regular pe_an nasal assimilation on "gunung" (starts with g) would
+    // give "penggunungan", but the real word is the irregular "pegunungan".
+    render(AffixTable, {
+      root: 'gunung',
+      annotations: {
+        gunung: {
+          pe_an: { state: 'valid', gloss: 'mountain range', form: 'pegunungan' },
+        },
+      },
+    })
+    expect(screen.getByText('pegunungan')).toBeInTheDocument()
+    expect(screen.queryByText('penggunungan')).not.toBeInTheDocument()
+  })
 })
