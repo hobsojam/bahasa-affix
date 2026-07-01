@@ -212,3 +212,9 @@ bahasa-affix/
 - [x] Set up CI, Dependabot, and SonarCloud
 
 See the [issue tracker](https://github.com/hobsojam/bahasa-affix/issues) for what's next — more annotation batches, a test suite, accessibility fixes, and a handful of known irregular-word edge cases the affix engine can't model yet.
+
+## License
+
+The application code and hand-authored data files (`affixes.json`, `annotations.json`) are licensed under the [MIT License](LICENSE).
+
+`data/words.json` is the exception — see the [License note](#license-note) above — it's derived from Wiktionary data and stays under **CC BY-SA 3.0**, independent of the MIT license covering everything else.
