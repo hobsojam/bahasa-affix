@@ -8923,5 +8923,321 @@
       "gloss": "how could it possibly be? (expresses disbelief; literary)",
       "notes": "collision triage (#48): from the interjection sense of masa, not the 'period' sense glossed in words.json; judgment call, see issue discussion"
     }
+  },
+  "pintu": {
+    "ber": {
+      "state": "valid",
+      "gloss": "having a door/doors (e.g. lemari berpintu dua)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "memintu is not a word; no verb derives from pintu"
+    },
+    "an": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "pintuan is not used; pintu appears bare or in compounds (pintu masuk, pintu keluar)"
+    }
+  },
+  "jendela": {
+    "ber": {
+      "state": "valid",
+      "gloss": "having windows (e.g. kamar berjendela besar)"
+    },
+    "an": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "jendelaan is not a word"
+    }
+  },
+  "meja": {
+    "se": {
+      "state": "valid",
+      "gloss": "at the same table (e.g. teman semeja)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "bermeja is not used on its own"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "the only verbal use is the compound memeja-hijaukan (to take to court, from meja hijau = courtroom); compounds aren't modeled"
+    }
+  },
+  "lampu": {
+    "ber": {
+      "state": "valid",
+      "gloss": "lit, fitted with lights (e.g. jalan berlampu)"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "melampui is not a word; frequently a typo for melampaui (from lampau, to exceed)"
+    }
+  },
+  "kamar": {
+    "se": {
+      "state": "valid",
+      "gloss": "sharing a room (teman sekamar = roommate)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "having rooms (e.g. rumah berkamar tiga)"
+    }
+  },
+  "dapur": {
+    "ber": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "berdapur is not standard usage"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "mendapur is not a word; no verb derives from dapur"
+    }
+  },
+  "kunci": {
+    "me": {
+      "state": "valid",
+      "gloss": "to lock"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be locked (passive)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "locked (stative or accidental, e.g. pintu terkunci)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "lock, fastener, locking device"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "locking; lockdown (e.g. penguncian wilayah)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "a lock hold (martial arts); lockscreen (colloquial)",
+      "notes": "domain/colloquial usage rather than core vocabulary"
+    }
+  },
+  "lantai": {
+    "ber": {
+      "state": "valid",
+      "gloss": "floored with; having N storeys (e.g. gedung berlantai lima)"
+    },
+    "me": {
+      "state": "valid",
+      "gloss": "to take the dance floor, to dance (colloquial)",
+      "notes": "informal register"
+    }
+  },
+  "atap": {
+    "ber": {
+      "state": "valid",
+      "gloss": "roofed with (e.g. beratap genteng)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to put a roof on, to roof"
+    }
+  },
+  "dinding": {
+    "ber": {
+      "state": "valid",
+      "gloss": "walled with (e.g. berdinding bambu)"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to wall off, screen, shield (also figurative)"
+    }
+  },
+  "pagar": {
+    "ber": {
+      "state": "valid",
+      "gloss": "fenced, having a fence"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to fence in, enclose"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "memagar appears in some dictionaries but memagari is the standard form; kept unused to avoid duplicating the me-...-i slot"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "fencing-off, enclosure (e.g. pemagaran lahan)"
+    }
+  },
+  "tangga": {
+    "ber": {
+      "state": "valid",
+      "gloss": "having stairs or a ladder"
+    },
+    "an": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "tanggaan is not a word; tetangga (neighbor) is a lexicalized form, not tangga + a modeled affix"
+    }
+  },
+  "sapu": {
+    "me": {
+      "state": "valid",
+      "gloss": "to sweep; to wipe across (also figurative: menyapu bersih = to sweep clean)"
+    },
+    "di": {
+      "state": "valid",
+      "gloss": "to be swept (passive)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "swept away (e.g. tersapu ombak)"
+    },
+    "pe": {
+      "state": "valid",
+      "gloss": "sweeper; broom (penyapu jalan = street sweeper)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "a sweep, a stroke (e.g. sapuan kuas = brushstroke)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to sweep something across a surface (e.g. menyapukan kuas)"
+    }
+  },
+  "bantal": {
+    "ber": {
+      "state": "valid",
+      "gloss": "using something as a pillow (e.g. berbantal lengan)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "pad, cushion, bearing (e.g. bantalan rel = railway sleeper)"
+    }
+  },
+  "selimut": {
+    "ber": {
+      "state": "valid",
+      "gloss": "wrapped in a blanket"
+    },
+    "me_i": {
+      "state": "valid",
+      "gloss": "to blanket, cover, envelop (also figurative: kabut menyelimuti kota)"
+    },
+    "di": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "the passive of menyelimuti is diselimuti (di-...-i, not a modeled slot); bare diselimut isn't used"
+    }
+  },
+  "cermin": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to look in the mirror; to learn from (bercermin dari)"
+    },
+    "me_kan": {
+      "state": "valid",
+      "gloss": "to reflect, mirror (figurative: mencerminkan budaya)"
+    },
+    "ter": {
+      "state": "valid",
+      "gloss": "reflected, mirrored (e.g. tercermin dalam sikapnya)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "a reflection, an image of (e.g. cerminan masyarakat)"
+    }
+  },
+  "gelas": {
+    "se": {
+      "state": "valid",
+      "gloss": "a glass of (segelas air)"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "only the reduplicated bergelas-gelas (glasses and glasses of) is used; reduplication isn't modeled"
+    }
+  },
+  "piring": {
+    "se": {
+      "state": "valid",
+      "gloss": "a plate of (sepiring nasi)"
+    },
+    "an": {
+      "state": "valid",
+      "gloss": "disc, platter (piringan hitam = vinyl record)"
+    }
+  },
+  "sendok": {
+    "se": {
+      "state": "valid",
+      "gloss": "a spoonful (sesendok gula)"
+    },
+    "me": {
+      "state": "valid",
+      "gloss": "to spoon, scoop up"
+    }
+  },
+  "garpu": {
+    "se": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "segarpu (a forkful) isn't idiomatic; portion measures use sesendok or sepiring"
+    },
+    "me": {
+      "state": "valid",
+      "gloss": "to pick up or turn with a fork",
+      "notes": "menggarpu is in KBBI but rare in everyday speech"
+    }
+  },
+  "pisau": {
+    "ber": {
+      "state": "valid",
+      "gloss": "armed with, carrying a knife (e.g. berpisau belati)"
+    },
+    "me": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "memisau is not a word"
+    }
+  },
+  "lemari": {
+    "ber": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "berlemari is not used"
+    },
+    "an": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "lemarian is not a word"
+    }
+  },
+  "jam": {
+    "se": {
+      "state": "valid",
+      "gloss": "an hour, one hour (sejam kemudian = an hour later)",
+      "notes": "uses the 'hour' sense of jam, not 'clock'"
+    },
+    "ber": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "only the reduplicated berjam-jam (for hours on end) is used; reduplication isn't modeled"
+    },
+    "an": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "jaman is a nonstandard spelling of zaman (era), not jam + -an"
+    }
   }
 }
