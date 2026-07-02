@@ -2,11 +2,22 @@
   import { deriveForm, affixes } from '../lib/affixEngine.js'
   import affixData from '../../data/affixes.json'
 
-  let { root, annotations } = $props()
+  let { root, annotations, searched = null } = $props()
 
   const wordAnnotations = $derived(annotations[root] ?? {})
 
   const groups = affixData.groups
+
+  // When the user arrived via an un-annotated derived-form search result,
+  // show that one derivation as an explicitly unreviewed row instead of a
+  // dead end (#53). Curated slots (valid or unused) render normally, so
+  // the row only appears when nobody has looked at the slot yet.
+  const mechanicalRow = $derived.by(() => {
+    if (!searched?.via) return null
+    const affix = affixes.find(a => a.label === searched.via)
+    if (!affix || wordAnnotations[affix.id]) return null
+    return { affix, form: searched.form, state: 'mechanical', gloss: '' }
+  })
 
   function rowsForGroup(groupId) {
     return affixes
@@ -30,7 +41,13 @@
   }
 
   const groupedRows = $derived(
-    groups.map(g => ({ ...g, rows: rowsForGroup(g.id) })).filter(g => g.rows.length > 0)
+    groups
+      .map(g => {
+        const rows = rowsForGroup(g.id)
+        if (mechanicalRow && mechanicalRow.affix.group === g.id) rows.push(mechanicalRow)
+        return { ...g, rows }
+      })
+      .filter(g => g.rows.length > 0)
   )
 </script>
 
@@ -56,6 +73,8 @@
               <td class="gloss">
                 {#if row.state === 'unused'}
                   <span class="unused-note">(not commonly used)</span>
+                {:else if row.state === 'mechanical'}
+                  <span class="mechanical-note">mechanically derived — not yet reviewed</span>
                 {:else}
                   {row.gloss}
                 {/if}
@@ -105,6 +124,10 @@
 
   tr.unused td { color: #6b6b6b; }
   .unused-note { font-style: italic; }
+
+  tr.mechanical td { color: #6b6b6b; }
+  /* Same marker treatment as the search result "unverified" chip (#50) */
+  .mechanical-note { font-style: italic; color: #7a5f12; }
 
   .empty { color: #666; font-style: italic; }
 </style>
