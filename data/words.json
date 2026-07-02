@@ -6,7 +6,7 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
     "source_version": "2025.11.23",
     "generated": "2026-06-30",
-    "count": 9395
+    "count": 9397
   },
   "words": [
     {
@@ -21263,6 +21263,11 @@
       "root": "kepailitan",
       "pos": "word",
       "gloss": "bankruptcy"
+    },
+    {
+      "root": "kepala",
+      "pos": "word",
+      "gloss": "head; chief, leader (figurative)"
     },
     {
       "root": "kepanikan",
@@ -43083,6 +43088,11 @@
       "root": "tang",
       "pos": "word",
       "gloss": "pliers"
+    },
+    {
+      "root": "tangan",
+      "pos": "word",
+      "gloss": "hand"
     },
     {
       "root": "tanganyika",

@@ -69,4 +69,36 @@ describe('validateAnnotations', () => {
       'gunung.ber: form is set but state is not "valid" (an unused slot has nothing to override)'
     )
   })
+
+  it('accepts non-empty notes on an unused entry (#14)', () => {
+    const errors = validateAnnotations(
+      {
+        hati: {
+          me: {
+            state: 'unused',
+            gloss: '',
+            notes: 'the real verb is the compound "memperhatikan", which no single affix id models',
+          },
+        },
+      },
+      knownAffixIds
+    )
+    expect(errors).toEqual([])
+  })
+
+  it('accepts non-empty notes alongside a valid entry', () => {
+    const errors = validateAnnotations(
+      { tulis: { me: { state: 'valid', gloss: 'to write', notes: 'some context' } } },
+      knownAffixIds
+    )
+    expect(errors).toEqual([])
+  })
+
+  it('flags empty notes', () => {
+    const errors = validateAnnotations(
+      { tulis: { me: { state: 'valid', gloss: 'to write', notes: '' } } },
+      knownAffixIds
+    )
+    expect(errors).toContain('tulis.me: notes is present but empty (must be a non-empty string)')
+  })
 })

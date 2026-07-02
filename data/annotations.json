@@ -8614,5 +8614,129 @@
       "state": "unused",
       "gloss": ""
     }
+  },
+  "kepala": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to head, lead (an organization, project)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to have a head (figurative), e.g. berkepala dua = two-headed, duplicitous"
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "\"kepala\" is already used bare for \"chief/leader\" (e.g. kepala sekolah); \"pengepala\" is not standard usage"
+    }
+  },
+  "tangan": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to handle; to deal with; to take care of"
+    },
+    "pe_an": {
+      "state": "valid",
+      "gloss": "handling; management (e.g. penanganan kasus)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to have hands (figurative), e.g. bertangan kosong = empty-handed"
+    },
+    "pe": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "\"penangan\" only really appears inside \"penanganan\"; not used as a standalone word"
+    }
+  },
+  "kulit": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to skin, flay; to peel off the skin/rind of"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to have skin of a certain type/color, e.g. berkulit putih = fair-skinned"
+    }
+  },
+  "otak": {
+    "me_i": {
+      "state": "valid",
+      "gloss": "to mastermind, orchestrate (a plan, crime)"
+    },
+    "ber": {
+      "state": "valid",
+      "gloss": "to have a brain/mind; to be intelligent, e.g. berotak cerdas = brainy"
+    }
+  },
+  "rambut": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have hair (of a certain length/type), e.g. berambut panjang = long-haired"
+    }
+  },
+  "lutut": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to kneel"
+    }
+  },
+  "mata": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have eyes of a certain color/type, e.g. bermata biru = blue-eyed"
+    },
+    "me_i": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "the \"to spy on\" sense is the reduplicated \"memata-matai\" (from mata-mata, spy); reduplication isn't modeled by this affix system"
+    }
+  },
+  "muka": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have a face (figurative), e.g. bermuka dua = two-faced, hypocritical"
+    }
+  },
+  "perut": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have a belly of a certain type, e.g. berperut buncit = potbellied"
+    }
+  },
+  "jari": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have fingers, e.g. berjari lima = five-fingered"
+    }
+  },
+  "telinga": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have ears (figurative), e.g. bertelinga tajam = sharp-eared, perceptive"
+    }
+  },
+  "leher": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have a neck of a certain type, e.g. berleher jenjang = long-necked (elegant)"
+    }
+  },
+  "dada": {
+    "ber": {
+      "state": "valid",
+      "gloss": "to have a chest of a certain type, e.g. berdada bidang = broad-chested"
+    }
+  },
+  "hati": {
+    "per_an": {
+      "state": "valid",
+      "gloss": "attention, notice, care"
+    },
+    "me_kan": {
+      "state": "unused",
+      "gloss": "",
+      "notes": "the real verb \"memperhatikan\" (to pay attention to) is the compound mem-per-...-kan; no single affix id in data/affixes.json models a stacked per-+kan circumfix, so this can't be derived or overridden correctly"
+    }
   }
 }

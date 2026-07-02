@@ -12,6 +12,12 @@
  *   - an entry's optional `form` (irregular-derivation override, see
  *     affixEngine.js) is a non-empty string when present, and only appears
  *     on "valid" entries (an unused slot has no form to override)
+ *
+ * Plus, per issue #14:
+ *   - an entry's optional `notes` (maintainer-facing context, not rendered
+ *     in the UI -- e.g. explaining why a slot is unused despite looking
+ *     plausible) is a non-empty string when present. Unlike `form`, it's
+ *     allowed on both "valid" and "unused" entries.
  */
 import { readFileSync } from 'fs'
 import { fileURLToPath, pathToFileURL } from 'url'
@@ -44,6 +50,12 @@ export function validateAnnotations(annotations, knownAffixIds) {
         }
         if (entry.state !== 'valid') {
           errors.push(`${where}: form is set but state is not "valid" (an unused slot has nothing to override)`)
+        }
+      }
+
+      if ('notes' in entry) {
+        if (typeof entry.notes !== 'string' || !entry.notes.trim()) {
+          errors.push(`${where}: notes is present but empty (must be a non-empty string)`)
         }
       }
     }
