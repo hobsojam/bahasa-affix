@@ -8,12 +8,25 @@ import WordSearch from './WordSearch.svelte'
 // fixture removes that timing dependency entirely.
 vi.mock('../../data/search-index.json', () => ({
   default: [
-    ['menulis', 'tulis', 'me-'],
-    ['tulis', 'tulis', null],
+    // "bertangan" is the #48 collision shape: a verified derivation of
+    // "tangan" and an unverified mechanical one from "tang", sorted
+    // verified-first like the real index.
+    ['bertangan', 'tangan', 'ber-', 1],
+    ['bertangan', 'tang', 'ber-...-an'],
+    // mechanically derived, un-annotated, and no verified collision
+    ['menang', 'tang', 'me-'],
+    ['menulis', 'tulis', 'me-', 1],
+    ['tang', 'tang', null, 1],
+    ['tangan', 'tangan', null, 1],
+    ['tulis', 'tulis', null, 1],
   ],
 }))
 
-const words = [{ root: 'tulis', pos: 'word', gloss: 'write, written' }]
+const words = [
+  { root: 'tulis', pos: 'word', gloss: 'write, written' },
+  { root: 'tangan', pos: 'word', gloss: 'hand' },
+  { root: 'tang', pos: 'word', gloss: 'pliers' },
+]
 
 describe('WordSearch', () => {
   it('shows no results for a query shorter than 2 characters', async () => {
@@ -54,6 +67,34 @@ describe('WordSearch', () => {
     expect(onSelect).toHaveBeenCalledWith('tulis')
     expect(screen.queryByRole('listbox')).not.toBeInTheDocument()
     expect(input).toHaveValue('tulis')
+  })
+
+  describe('unverified-collision marker (#48)', () => {
+    it('marks the unverified root when a form also resolves to a verified one, verified first', async () => {
+      render(WordSearch, { words, onSelect: vi.fn() })
+      const input = screen.getByLabelText(/search root or derived form/i)
+      await fireEvent.input(input, { target: { value: 'bertangan' } })
+
+      const options = await screen.findAllByRole('option', {}, { timeout: 3000 })
+      expect(options).toHaveLength(2)
+
+      // Verified derivation (tangan) ranks first and carries no marker
+      expect(options[0]).toHaveTextContent('tangan')
+      expect(options[0]).not.toHaveTextContent('unverified')
+
+      // Unverified collider (tang) is explicitly marked
+      expect(options[1]).toHaveTextContent('tang')
+      expect(options[1]).toHaveTextContent('via ber-...-an · unverified')
+    })
+
+    it('does not mark an unverified form that has no verified collision', async () => {
+      render(WordSearch, { words, onSelect: vi.fn() })
+      const input = screen.getByLabelText(/search root or derived form/i)
+      await fireEvent.input(input, { target: { value: 'menang' } })
+
+      await screen.findByText('via me-', {}, { timeout: 3000 })
+      expect(screen.queryByText(/unverified/)).not.toBeInTheDocument()
+    })
   })
 
   describe('combobox semantics', () => {

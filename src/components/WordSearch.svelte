@@ -36,13 +36,21 @@
     const lower = q.toLowerCase()
 
     const found = []
-    // Local dedup set, discarded at the end of this call -- not reactive state, so a plain Set is correct here.
+    // Local dedup sets, discarded at the end of this call -- not reactive state, so plain Sets are correct here.
     // eslint-disable-next-line svelte/prefer-svelte-reactivity
     const seenRoots = new Set()
+    // Forms that resolved to a verified entry (root self-entry or annotated
+    // "valid" slot). An unverified entry for one of these forms is the
+    // misleading-collision case from #48 and gets an explicit marker. The
+    // index sorts verified before unverified within a form, so a form's
+    // verified entry is always scanned before its unverified ones.
+    // eslint-disable-next-line svelte/prefer-svelte-reactivity
+    const verifiedForms = new Set()
 
     let i = binarySearchLeft(lower)
     while (i < index.length && index[i][0].startsWith(lower)) {
-      const [form, root, via] = index[i]
+      const [form, root, via, verified] = index[i]
+      if (verified) verifiedForms.add(form)
       if (!seenRoots.has(root)) {
         seenRoots.add(root)
         found.push({
@@ -51,6 +59,7 @@
           via,
           gloss: glossMap.get(root) ?? '',
           isDirect: rootSet.has(form) && form === root,
+          ambiguous: !verified && verifiedForms.has(form),
         })
       }
       i++
@@ -128,7 +137,7 @@
         >
           <span class="root">{r.root}</span>
           {#if r.via}
-            <span class="via">via {r.via}</span>
+            <span class="via">via {r.via}{#if r.ambiguous}<span class="unverified">{' · unverified'}</span>{/if}</span>
           {/if}
           <span class="gloss">{r.gloss}</span>
         </li>
@@ -189,5 +198,6 @@
 
   .root  { font-weight: 600; }
   .via   { font-size: 0.8rem; color: #666; }
+  .unverified { font-style: italic; color: #7a5f12; }
   .gloss { font-size: 0.9rem; color: #555; margin-left: auto; }
 </style>
