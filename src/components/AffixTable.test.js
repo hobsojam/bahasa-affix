@@ -50,6 +50,38 @@ describe('AffixTable', () => {
     expect(screen.queryByText('ditulis')).not.toBeInTheDocument()
   })
 
+  describe('mechanical row for un-annotated search arrivals (#53)', () => {
+    it('shows the searched derivation as an unreviewed row instead of the empty state', () => {
+      render(AffixTable, {
+        root: 'tang',
+        annotations: {},
+        searched: { form: 'bertang', via: 'ber-' },
+      })
+      expect(screen.getByText('bertang')).toBeInTheDocument()
+      expect(screen.getByText('mechanically derived — not yet reviewed')).toBeInTheDocument()
+      expect(screen.queryByText(/no affix forms annotated yet/i)).not.toBeInTheDocument()
+    })
+
+    it('does not duplicate a row whose slot is already annotated', () => {
+      render(AffixTable, {
+        root: 'tulis',
+        annotations,
+        searched: { form: 'menulis', via: 'me-' },
+      })
+      expect(screen.getAllByText('menulis')).toHaveLength(1)
+      expect(screen.queryByText(/not yet reviewed/)).not.toBeInTheDocument()
+    })
+
+    it('shows no mechanical row when the user searched the root itself (via is null)', () => {
+      render(AffixTable, {
+        root: 'zzz',
+        annotations: {},
+        searched: { form: 'zzz', via: null },
+      })
+      expect(screen.getByText(/no affix forms annotated yet/i)).toBeInTheDocument()
+    })
+  })
+
   it('uses an annotation\'s form override instead of the algorithmic derivation (#16)', () => {
     // Regular pe_an nasal assimilation on "gunung" (starts with g) would
     // give "penggunungan", but the real word is the irregular "pegunungan".

@@ -64,7 +64,7 @@ describe('WordSearch', () => {
     const option = await screen.findByRole('option', { name: /tulis/ }, { timeout: 3000 })
     await fireEvent.click(option)
 
-    expect(onSelect).toHaveBeenCalledWith('tulis')
+    expect(onSelect).toHaveBeenCalledWith('tulis', { form: 'menulis', via: 'me-' })
     expect(screen.queryByRole('listbox')).not.toBeInTheDocument()
     expect(input).toHaveValue('tulis')
   })
@@ -160,7 +160,7 @@ describe('WordSearch', () => {
       await fireEvent.keyDown(input, { key: 'ArrowDown' })
       await fireEvent.keyDown(input, { key: 'Enter' })
 
-      expect(onSelect).toHaveBeenCalledWith('tulis')
+      expect(onSelect).toHaveBeenCalledWith('tulis', { form: 'menulis', via: 'me-' })
       expect(screen.queryByRole('listbox')).not.toBeInTheDocument()
     })
 

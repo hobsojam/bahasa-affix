@@ -75,12 +75,14 @@
     results.length === 0 ? '' : `${results.length} result${results.length === 1 ? '' : 's'} available`
   )
 
-  function select(root) {
+  function select(r) {
     justSelected = true
-    query = root
+    query = r.root
     results = []
     activeIndex = -1
-    onSelect(root)
+    // The form/affix context lets the word page show the derivation the
+    // user actually clicked even when its slot is un-annotated (#53).
+    onSelect(r.root, { form: r.form, via: r.via })
   }
 
   function handleKeydown(e) {
@@ -95,7 +97,7 @@
     } else if (e.key === 'Enter') {
       if (activeIndex < 0 || !results[activeIndex]) return
       e.preventDefault()
-      select(results[activeIndex].root)
+      select(results[activeIndex])
     } else if (e.key === 'Escape') {
       if (results.length === 0) return
       e.preventDefault()
@@ -133,7 +135,7 @@
           role="option"
           aria-selected={i === activeIndex}
           class:active={i === activeIndex}
-          onclick={() => select(r.root)}
+          onclick={() => select(r)}
         >
           <span class="root">{r.root}</span>
           {#if r.via}

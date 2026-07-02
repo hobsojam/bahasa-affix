@@ -8,6 +8,9 @@
   const words = wordsData.words
 
   let selectedRoot = $state(null)
+  // The {form, via} of the search result that led here, so the affix table
+  // can show that derivation even when its slot is un-annotated (#53).
+  let searchContext = $state(null)
   const selectedWord = $derived(words.find(w => w.root === selectedRoot))
 
   let guideOpen = $state(false)
@@ -35,7 +38,7 @@
 
 <main>
   <div class="search-wrapper">
-    <WordSearch {words} onSelect={root => selectedRoot = root} />
+    <WordSearch {words} onSelect={(root, ctx) => { selectedRoot = root; searchContext = ctx ?? null }} />
   </div>
 
   <div class="sr-only" role="status">
@@ -51,7 +54,7 @@
 
     <section class="affix-section">
       <h2>Derived forms</h2>
-      <AffixTable root={selectedRoot} {annotations} />
+      <AffixTable root={selectedRoot} {annotations} searched={searchContext} />
     </section>
   {:else}
     <p class="prompt">Search for a root word above to explore its affix forms.</p>
