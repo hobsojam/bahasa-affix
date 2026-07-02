@@ -57,19 +57,24 @@ export function buildIndex({ words, affixes, annotations, rules }) {
   // unrelated root).
   const rootWords = new Set(words.map(w => w.root))
 
-  const entries = [] // [form, root, affixLabel|null]
+  // Entries are [form, root, affixLabel|null] with a trailing 1 appended to
+  // "verified" entries: root self-entries and slots annotated state "valid".
+  // The flag is sparse (only ~6% of entries carry it) to keep the generated
+  // file small; a missing flag means the form was mechanically derived from
+  // an un-annotated slot and nobody has reviewed it (#48).
+  const entries = []
   const seen = new Set()
 
-  function add(form, root, label) {
+  function add(form, root, label, verified) {
     const key = form + '\0' + root
     if (!seen.has(key)) {
       seen.add(key)
-      entries.push([form, root, label])
+      entries.push(verified ? [form, root, label, 1] : [form, root, label])
     }
   }
 
   for (const word of words) {
-    add(word.root, word.root, null)
+    add(word.root, word.root, null, true)
     for (const affix of affixes) {
       const ann = annotations[word.root]?.[affix.id]
       if (ann?.state === 'unused') continue
@@ -80,11 +85,13 @@ export function buildIndex({ words, affixes, annotations, rules }) {
       if (form === word.root) continue
       if (rootWords.has(form)) continue // collides with an unrelated dictionary headword
 
-      add(form, word.root, affix.label)
+      add(form, word.root, affix.label, ann?.state === 'valid')
     }
   }
 
-  entries.sort((a, b) => a[0].localeCompare(b[0]))
+  // Verified entries sort before unverified ones for the same form, so the
+  // search UI's prefix scan surfaces curated derivations first.
+  entries.sort((a, b) => a[0].localeCompare(b[0]) || (b[3] ?? 0) - (a[3] ?? 0))
   return entries
 }
 

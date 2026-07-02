@@ -30,7 +30,7 @@ describe('buildIndex', () => {
     }
     const entries = buildIndex({ words, affixes, annotations, rules })
 
-    expect(entries).toContainEqual(['pegunungan', 'gunung', 'pe-...-an'])
+    expect(entries).toContainEqual(['pegunungan', 'gunung', 'pe-...-an', 1])
     // The algorithmic (wrong) nasal-assimilated form must not sneak in too.
     expect(entries.some(([form]) => form === 'penggunungan')).toBe(false)
   })
@@ -41,10 +41,39 @@ describe('buildIndex', () => {
     expect(entries.some(([, root, label]) => root === 'tulis' && label === 'me-')).toBe(false)
   })
 
-  it("always includes each word's own root with a null label", () => {
+  it("always includes each word's own root with a null label, marked verified", () => {
     const entries = buildIndex({ words, affixes, annotations: {}, rules })
-    expect(entries).toContainEqual(['gunung', 'gunung', null])
-    expect(entries).toContainEqual(['tulis', 'tulis', null])
+    expect(entries).toContainEqual(['gunung', 'gunung', null, 1])
+    expect(entries).toContainEqual(['tulis', 'tulis', null, 1])
+  })
+
+  describe('provenance flag (#48)', () => {
+    it('marks slots annotated valid with a trailing 1 and leaves un-annotated slots unflagged', () => {
+      const annotations = { tulis: { me: { state: 'valid', gloss: 'to write' } } }
+      const entries = buildIndex({ words, affixes, annotations, rules })
+
+      expect(entries).toContainEqual(['menulis', 'tulis', 'me-', 1])
+      // gunung.me was never annotated -- mechanically derived, 3 elements only
+      expect(entries).toContainEqual(['menggunung', 'gunung', 'me-'])
+    })
+
+    it('sorts a verified entry before an unverified one with the same form', () => {
+      // "otak" (vowel-initial -> meng-) and "kotak" (k drops -> meng-) both
+      // mechanically derive "mengotak" -- the collision shape from #48.
+      // Only otak's slot is annotated valid.
+      const annotations = { otak: { me: { state: 'valid', gloss: 'to mastermind' } } }
+      const collided = buildIndex({
+        words: [{ root: 'kotak' }, { root: 'otak' }],
+        affixes: [{ id: 'me', label: 'me-' }],
+        annotations,
+        rules,
+      }).filter(([form]) => form === 'mengotak')
+
+      expect(collided).toEqual([
+        ['mengotak', 'otak', 'me-', 1],
+        ['mengotak', 'kotak', 'me-'],
+      ])
+    })
   })
 })
 
